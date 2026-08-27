@@ -244,6 +244,7 @@ h1 span {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 14px;
+  width: 100%;
 }
 
 .option-btn {
@@ -374,5 +375,5 @@ h1 span {
 
 @media (max-width: 480px) {
   #character-big { font-size: 6rem; }
-  .options-grid { grid-template-columns: 1fr; }
+  .option-btn { padding: 14px 8px; font-size: 0.9rem; }
 }

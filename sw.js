@@ -35,7 +35,7 @@ self.addEventListener("activate", (event) => {
 });
 
 function networkFirst(req) {
-  return fetch(req)
+  return fetch(req, { cache: "no-store" })
     .then((res) => {
       const copy = res.clone();
       caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));

@@ -10,4 +10,8 @@
 //   "music/cancion3.mp3",
 // ];
 
-const MUSIC_TRACKS = [];
+const MUSIC_TRACKS = [
+  "music/Relaxing-Chillout.mp3",
+  "music/Wild-Flower-Joakim-Karud.mp3",
+  "music/adventures-a-himitsu.mp3",
+];
