@@ -62,6 +62,88 @@ h1 span {
   margin: 0;
 }
 
+.mode-tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.mode-tab {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  color: var(--text-dim);
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.mode-tab.active {
+  border-color: var(--accent);
+  color: var(--text);
+  background: #142433;
+}
+
+/* --- Repaso --- */
+
+.review-topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.review-topbar h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius);
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.review-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.review-row:last-child {
+  border-bottom: none;
+}
+
+.review-char {
+  font-size: 2rem;
+  width: 56px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.review-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.review-pinyin {
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.review-meaning {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
 .setup-block {
   background: var(--panel);
   border: 1px solid var(--panel-border);

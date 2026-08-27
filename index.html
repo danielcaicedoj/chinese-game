@@ -21,7 +21,13 @@
 <!-- PANTALLA DE CONFIGURACIÓN -->
 <section id="screen-setup" class="screen active">
   <h1>汉字 <span>Aprende Chino Mandarín</span></h1>
-  <p class="subtitle">Elige un nivel de dificultad y la cantidad de caracteres para tu partida.</p>
+
+  <div class="mode-tabs">
+    <button type="button" class="mode-tab active" data-mode="play">🎮 Jugar</button>
+    <button type="button" class="mode-tab" data-mode="review">📖 Repaso</button>
+  </div>
+
+  <p id="mode-subtitle" class="subtitle">Elige un nivel de dificultad y la cantidad de caracteres para tu partida.</p>
 
   <div class="setup-block">
     <div class="level-header">
@@ -32,23 +38,34 @@
     <div id="level-list" class="level-list"></div>
   </div>
 
-  <div class="setup-block">
-    <h2>2. Cantidad de caracteres</h2>
-    <div class="quantity-options">
-      <label class="quantity-option">
-        <input type="radio" name="qty-mode" value="fixed" checked>
-        <span>Número fijo:</span>
-        <input type="number" id="qty-input" min="1" max="500" value="20">
-      </label>
-      <label class="quantity-option">
-        <input type="radio" name="qty-mode" value="infinite">
-        <span>Infinito (juega hasta que decidas parar)</span>
-      </label>
+  <div id="play-options">
+    <div class="setup-block">
+      <h2>2. Cantidad de caracteres</h2>
+      <div class="quantity-options">
+        <label class="quantity-option">
+          <input type="radio" name="qty-mode" value="fixed" checked>
+          <span>Número fijo:</span>
+          <input type="number" id="qty-input" min="1" max="500" value="20">
+        </label>
+        <label class="quantity-option">
+          <input type="radio" name="qty-mode" value="infinite">
+          <span>Infinito (juega hasta que decidas parar)</span>
+        </label>
+      </div>
     </div>
-  </div>
 
-  <button id="btn-start" class="btn-primary" disabled>Comenzar partida</button>
-  <p id="setup-error" class="setup-error"></p>
+    <button id="btn-start" class="btn-primary" disabled>Comenzar partida</button>
+    <p id="setup-error" class="setup-error"></p>
+  </div>
+</section>
+
+<!-- PANTALLA DE REPASO -->
+<section id="screen-review" class="screen">
+  <div class="review-topbar">
+    <button id="btn-review-back" class="btn-secondary" type="button">← Volver</button>
+    <h2 id="review-title"></h2>
+  </div>
+  <div id="review-list" class="review-list"></div>
 </section>
 
 <!-- PANTALLA DE JUEGO -->

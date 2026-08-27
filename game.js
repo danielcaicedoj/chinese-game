@@ -12,7 +12,12 @@
     setup: document.getElementById("screen-setup"),
     game: document.getElementById("screen-game"),
     end: document.getElementById("screen-end"),
+    review: document.getElementById("screen-review"),
   };
+
+  const modeTabs = document.querySelectorAll(".mode-tab");
+  const modeSubtitle = document.getElementById("mode-subtitle");
+  const playOptions = document.getElementById("play-options");
 
   const levelListEl = document.getElementById("level-list");
   const btnBackLevel = document.getElementById("btn-back-level");
@@ -21,6 +26,10 @@
   const qtyRadios = document.getElementsByName("qty-mode");
   const btnStart = document.getElementById("btn-start");
   const setupError = document.getElementById("setup-error");
+
+  const btnReviewBack = document.getElementById("btn-review-back");
+  const reviewTitle = document.getElementById("review-title");
+  const reviewList = document.getElementById("review-list");
 
   const progressLabel = document.getElementById("progress-label");
   const levelLabel = document.getElementById("level-label");
@@ -38,6 +47,7 @@
   const flashOverlay = document.getElementById("flash-overlay");
 
   // --- Estado de configuración ---
+  let mode = "play"; // "play" | "review"
   let selectedLevelId = null; // number | "all"
   let selectedLevelName = "";
   let selectedRange = null; // { start, end } (índices) cuando se elige un subnivel
@@ -158,11 +168,61 @@
     selectedLevelId = id;
     selectedLevelName = name;
     selectedRange = range;
+
+    if (mode === "review") {
+      showReview(getPool(id, range), name);
+      return;
+    }
+
     highlightSelection();
     updateStartButtonState();
   }
 
   btnBackLevel.addEventListener("click", renderTopLevels);
+
+  // --- Modo Jugar / Repaso ---
+  function setMode(newMode) {
+    mode = newMode;
+    modeTabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.mode === newMode));
+    playOptions.style.display = newMode === "review" ? "none" : "";
+    modeSubtitle.textContent =
+      newMode === "review"
+        ? "Elige un nivel para ver sus caracteres, como un diccionario."
+        : "Elige un nivel de dificultad y la cantidad de caracteres para tu partida.";
+    setupError.textContent = "";
+    renderTopLevels();
+  }
+
+  modeTabs.forEach((tab) => {
+    tab.addEventListener("click", () => setMode(tab.dataset.mode));
+  });
+
+  // --- Pantalla de repaso ---
+  function showReview(chars, name) {
+    reviewTitle.textContent = name;
+    reviewList.innerHTML = chars
+      .map(
+        (c) => `
+        <div class="review-row">
+          <div class="review-char">${c.char}</div>
+          <div class="review-info">
+            <div class="review-pinyin">${c.pinyin}</div>
+            <div class="review-meaning">${c.meaning}</div>
+          </div>
+        </div>`
+      )
+      .join("");
+    showScreen("review");
+  }
+
+  btnReviewBack.addEventListener("click", () => {
+    showScreen("setup");
+    if (browsingLevel) {
+      renderSublevels(browsingLevel);
+    } else {
+      renderTopLevels();
+    }
+  });
 
   function getPool(id, range) {
     let chars;
