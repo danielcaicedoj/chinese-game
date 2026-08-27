@@ -77,6 +77,38 @@ h1 span {
   letter-spacing: 0.04em;
 }
 
+.level-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.level-header h2 {
+  margin: 0 0 12px 0;
+}
+
+.btn-back {
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  color: var(--accent);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.btn-back:hover {
+  border-color: var(--accent);
+}
+
+.level-subtitle {
+  margin: -6px 0 12px 0;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
 .level-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

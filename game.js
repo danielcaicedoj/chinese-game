@@ -5,6 +5,7 @@
 
   const ROUND_SECONDS = 10;
   const FEEDBACK_DELAY_MS = 1200;
+  const SUBLEVEL_SIZE = 30;
 
   // --- Elementos DOM ---
   const screens = {
@@ -14,6 +15,8 @@
   };
 
   const levelListEl = document.getElementById("level-list");
+  const btnBackLevel = document.getElementById("btn-back-level");
+  const levelSubtitle = document.getElementById("level-subtitle");
   const qtyInput = document.getElementById("qty-input");
   const qtyRadios = document.getElementsByName("qty-mode");
   const btnStart = document.getElementById("btn-start");
@@ -37,6 +40,8 @@
   // --- Estado de configuración ---
   let selectedLevelId = null; // number | "all"
   let selectedLevelName = "";
+  let selectedRange = null; // { start, end } (índices) cuando se elige un subnivel
+  let browsingLevel = null; // nivel cuyos subniveles se están mostrando
 
   // --- Estado de partida ---
   let pool = [];
@@ -67,17 +72,35 @@
     screens[name].classList.add("active");
   }
 
-  // --- Configuración: niveles ---
-  function renderLevelList() {
+  // --- Configuración: niveles y subniveles ---
+  function getSublevels(lvl) {
+    const ranges = [];
+    for (let start = 0; start < lvl.chars.length; start += SUBLEVEL_SIZE) {
+      ranges.push({ start, end: Math.min(start + SUBLEVEL_SIZE, lvl.chars.length) });
+    }
+    return ranges;
+  }
+
+  function renderTopLevels() {
+    browsingLevel = null;
+    btnBackLevel.style.display = "none";
+    levelSubtitle.style.display = "none";
     levelListEl.innerHTML = "";
 
     LEVELS.forEach((lvl) => {
+      const sublevels = getSublevels(lvl);
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "level-btn";
       btn.dataset.levelId = String(lvl.id);
       btn.innerHTML = `<strong>${lvl.name}</strong><small>${lvl.chars.length} caracteres</small>`;
-      btn.addEventListener("click", () => selectLevel(lvl.id, lvl.name));
+      btn.addEventListener("click", () => {
+        if (sublevels.length > 1) {
+          renderSublevels(lvl);
+        } else {
+          selectWholeLevel(lvl);
+        }
+      });
       levelListEl.appendChild(btn);
     });
 
@@ -86,23 +109,71 @@
     allBtn.className = "level-btn";
     allBtn.dataset.levelId = "all";
     allBtn.innerHTML = `<strong>Todos los niveles</strong><small>${ALL_CHARS.length} caracteres (mixto)</small>`;
-    allBtn.addEventListener("click", () => selectLevel("all", "Todos los niveles"));
+    allBtn.addEventListener("click", () => selectLevel("all", "Todos los niveles", null));
     levelListEl.appendChild(allBtn);
+
+    highlightSelection();
   }
 
-  function selectLevel(id, name) {
+  function renderSublevels(lvl) {
+    browsingLevel = lvl;
+    btnBackLevel.style.display = "";
+    levelSubtitle.style.display = "";
+    levelSubtitle.textContent = `${lvl.name} · elige un subnivel`;
+    levelListEl.innerHTML = "";
+
+    getSublevels(lvl).forEach((range, i) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "level-btn";
+      btn.dataset.levelId = String(lvl.id);
+      btn.dataset.subStart = String(range.start);
+      const count = range.end - range.start;
+      btn.innerHTML = `<strong>Subnivel ${i + 1}</strong><small>Caracteres ${range.start + 1}–${range.end} (${count})</small>`;
+      btn.addEventListener("click", () => {
+        const name = `${lvl.name} · Subnivel ${i + 1} (${range.start + 1}–${range.end})`;
+        selectLevel(lvl.id, name, range);
+      });
+      levelListEl.appendChild(btn);
+    });
+
+    highlightSelection();
+  }
+
+  function highlightSelection() {
+    document.querySelectorAll(".level-btn").forEach((b) => {
+      const matchesLevel = b.dataset.levelId === String(selectedLevelId);
+      const matchesRange = selectedRange
+        ? Number(b.dataset.subStart) === selectedRange.start
+        : b.dataset.subStart === undefined;
+      b.classList.toggle("selected", matchesLevel && matchesRange);
+    });
+  }
+
+  function selectWholeLevel(lvl) {
+    selectLevel(lvl.id, lvl.name, null);
+  }
+
+  function selectLevel(id, name, range) {
     selectedLevelId = id;
     selectedLevelName = name;
-    document.querySelectorAll(".level-btn").forEach((b) => {
-      b.classList.toggle("selected", b.dataset.levelId === String(id));
-    });
+    selectedRange = range;
+    highlightSelection();
     updateStartButtonState();
   }
 
-  function getPool(id) {
-    if (id === "all") return ALL_CHARS.slice();
-    const lvl = LEVELS.find((l) => l.id === id);
-    return lvl ? lvl.chars.slice() : [];
+  btnBackLevel.addEventListener("click", renderTopLevels);
+
+  function getPool(id, range) {
+    let chars;
+    if (id === "all") {
+      chars = ALL_CHARS;
+    } else {
+      const lvl = LEVELS.find((l) => l.id === id);
+      chars = lvl ? lvl.chars : [];
+    }
+    if (range) return chars.slice(range.start, range.end);
+    return chars.slice();
   }
 
   function currentQtyMode() {
@@ -215,8 +286,8 @@
   // --- Flujo de partida ---
   btnStart.addEventListener("click", () => {
     if (btnStart.disabled) return;
-    pool = getPool(selectedLevelId);
-    if (pool.length < 4) {
+    pool = getPool(selectedLevelId, selectedRange);
+    if (pool.length < 1) {
       setupError.textContent = "Este nivel no tiene suficientes caracteres.";
       return;
     }
@@ -416,9 +487,10 @@
   btnAgain.addEventListener("click", () => {
     showScreen("setup");
     setupError.textContent = "";
+    renderTopLevels();
   });
 
   // --- Inicialización ---
-  renderLevelList();
+  renderTopLevels();
   updateStartButtonState();
 })();
