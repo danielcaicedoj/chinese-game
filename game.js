@@ -58,6 +58,10 @@
   let roundStartTime = 0;
   let multiplier = 1;
 
+  // --- Estado de música ---
+  let musicQueue = [];
+  let currentAudio = null;
+
   function showScreen(name) {
     Object.values(screens).forEach((s) => s.classList.remove("active"));
     screens[name].classList.add("active");
@@ -134,6 +138,42 @@
     return a;
   }
 
+  function stopMusic() {
+    if (currentAudio) {
+      currentAudio.onended = null;
+      currentAudio.pause();
+      currentAudio = null;
+    }
+    musicQueue = [];
+  }
+
+  function playTrack(src, loop) {
+    const audio = new Audio(src);
+    audio.volume = 0.5;
+    audio.loop = loop;
+    audio.play().catch(() => {});
+    return audio;
+  }
+
+  function playNextInQueue() {
+    if (musicQueue.length === 0) musicQueue = shuffle(MUSIC_TRACKS);
+    const track = musicQueue.shift();
+    currentAudio = playTrack(track, false);
+    currentAudio.onended = playNextInQueue;
+  }
+
+  function startMusic() {
+    if (typeof MUSIC_TRACKS === "undefined" || MUSIC_TRACKS.length === 0) return;
+
+    if (isInfinite) {
+      musicQueue = shuffle(MUSIC_TRACKS);
+      playNextInQueue();
+    } else {
+      const track = MUSIC_TRACKS[Math.floor(Math.random() * MUSIC_TRACKS.length)];
+      currentAudio = playTrack(track, true);
+    }
+  }
+
   function nextChar() {
     if (queue.length === 0) {
       queue = shuffle(pool);
@@ -199,6 +239,7 @@
     scoreLabel.textContent = "0";
     updateMultiplierLabel();
 
+    startMusic();
     showScreen("game");
     startRound();
   });
@@ -346,6 +387,7 @@
   });
 
   function endGame() {
+    stopMusic();
     showScreen("end");
     const answered = correctCount + wrongCount + timeoutCount;
     const accuracy = answered > 0 ? Math.round((correctCount / answered) * 100) : 0;
