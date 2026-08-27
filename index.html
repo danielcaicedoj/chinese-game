@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汉字 · Aprende Chino Mandarín</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#101418">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="汉字 Mandarín">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+<div id="flash-overlay"></div>
+
+<!-- PANTALLA DE CONFIGURACIÓN -->
+<section id="screen-setup" class="screen active">
+  <h1>汉字 <span>Aprende Chino Mandarín</span></h1>
+  <p class="subtitle">Elige un nivel de dificultad y la cantidad de caracteres para tu partida.</p>
+
+  <div class="setup-block">
+    <h2>1. Nivel</h2>
+    <div id="level-list" class="level-list"></div>
+  </div>
+
+  <div class="setup-block">
+    <h2>2. Cantidad de caracteres</h2>
+    <div class="quantity-options">
+      <label class="quantity-option">
+        <input type="radio" name="qty-mode" value="fixed" checked>
+        <span>Número fijo:</span>
+        <input type="number" id="qty-input" min="1" max="500" value="20">
+      </label>
+      <label class="quantity-option">
+        <input type="radio" name="qty-mode" value="infinite">
+        <span>Infinito (juega hasta que decidas parar)</span>
+      </label>
+    </div>
+  </div>
+
+  <button id="btn-start" class="btn-primary" disabled>Comenzar partida</button>
+  <p id="setup-error" class="setup-error"></p>
+</section>
+
+<!-- PANTALLA DE JUEGO -->
+<section id="screen-game" class="screen">
+  <div class="game-topbar">
+    <div class="game-info">
+      <span id="progress-label">Pregunta 1 / 20</span>
+      <span id="level-label"></span>
+    </div>
+    <div class="game-score">Puntos: <strong id="score-label">0</strong> <span id="multiplier-label" class="multiplier-label">x1.0</span></div>
+    <button id="btn-quit" class="btn-secondary">Terminar partida</button>
+  </div>
+
+  <div class="timer-track">
+    <div id="timer-bar" class="timer-bar"></div>
+  </div>
+
+  <div class="character-display">
+    <span id="character-big">字</span>
+  </div>
+
+  <div id="options-grid" class="options-grid"></div>
+</section>
+
+<!-- PANTALLA DE RESULTADOS -->
+<section id="screen-end" class="screen">
+  <h1>Resultados</h1>
+  <div id="end-summary" class="end-summary"></div>
+  <div id="end-missed" class="end-missed"></div>
+  <button id="btn-again" class="btn-primary">Jugar otra vez</button>
+</section>
+
+<script src="data.js"></script>
+<script src="game.js"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("sw.js").catch((err) => {
+        console.error("Error al registrar el service worker:", err);
+      });
+    });
+  }
+</script>
+</body>
+</html>
