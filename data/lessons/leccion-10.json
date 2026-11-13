@@ -1,0 +1,378 @@
+{
+  "id": 10,
+  "titulo": "我能坐这儿吗",
+  "titulo_pinyin": "Wǒ néng zuò zhèr ma",
+  "titulo_es": "¿Puedo sentarme aquí?",
+  "fuente": "HSK1-L10.pptx",
+  "vocabulario": [
+    {
+      "caracter": "能",
+      "pinyin": "néng",
+      "significado": "poder (tener permiso o posibilidad)",
+      "tipo": "verbo auxiliar"
+    },
+    {
+      "caracter": "坐",
+      "pinyin": "zuò",
+      "significado": "sentarse",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "这儿",
+      "pinyin": "zhèr",
+      "significado": "aquí, acá",
+      "tipo": "pronombre",
+      "significado_generado": true
+    },
+    {
+      "caracter": "和",
+      "pinyin": "hé",
+      "significado": "y (une sustantivos)",
+      "tipo": "conjunción"
+    },
+    {
+      "caracter": "里",
+      "pinyin": "lǐ",
+      "significado": "dentro, en",
+      "tipo": "sustantivo de lugar",
+      "significado_generado": true
+    },
+    {
+      "caracter": "里面",
+      "pinyin": "lǐmiàn",
+      "significado": "dentro, interior",
+      "tipo": "sustantivo de lugar",
+      "fuente": "manual"
+    },
+    {
+      "caracter": "前面",
+      "pinyin": "qiánmiàn",
+      "significado": "delante, enfrente",
+      "tipo": "sustantivo de lugar",
+      "significado_generado": true
+    },
+    {
+      "caracter": "后面",
+      "pinyin": "hòumiàn",
+      "significado": "detrás, atrás",
+      "tipo": "sustantivo de lugar",
+      "significado_generado": true
+    },
+    {
+      "caracter": "上",
+      "pinyin": "shàng",
+      "significado": "encima, sobre",
+      "tipo": "sustantivo de lugar",
+      "significado_generado": true
+    },
+    {
+      "caracter": "桌子",
+      "pinyin": "zhuōzi",
+      "significado": "mesa",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "电脑",
+      "pinyin": "diànnǎo",
+      "significado": "computadora, ordenador",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "本",
+      "pinyin": "běn",
+      "significado": "(clasificador de libros)",
+      "tipo": "clasificador",
+      "significado_generado": true
+    },
+    {
+      "caracter": "词典",
+      "pinyin": "cídiǎn",
+      "significado": "diccionario",
+      "tipo": "sustantivo",
+      "fuente": "manual"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "我有一个中国朋友和一个美国朋友。",
+      "origen": "gramatica",
+      "pinyin": "Wǒ yǒu yí ge Zhōngguó péngyou hé yí ge Měiguó péngyou.",
+      "es": "Tengo un amigo chino y un amigo estadounidense",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我家有三口人，爸爸、妈妈和我。",
+      "origen": "gramatica",
+      "pinyin": "Wǒ jiā yǒu sān kǒu rén, bàba, māma hé wǒ.",
+      "es": "En mi familia somos tres: papá, mamá y yo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "桌子上有一个电脑和一本书。",
+      "origen": "gramatica",
+      "pinyin": "Zhuōzi shang yǒu yí ge diànnǎo hé yì běn shū.",
+      "es": "Sobre la mesa hay una computadora y un libro",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "椅子下面没有小狗。",
+      "origen": "gramatica",
+      "pinyin": "Yǐzi xiàmiàn méiyǒu xiǎogǒu.",
+      "es": "Debajo de la silla no hay ningún perrito",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "学校里没有商店。",
+      "origen": "gramatica",
+      "pinyin": "Xuéxiào lǐ méiyǒu shāngdiàn.",
+      "es": "En la escuela no hay tienda",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "桌子上没有电脑和书。",
+      "origen": "gramatica",
+      "pinyin": "Zhuōzi shàng méiyǒu diànnǎo hé shū.",
+      "es": "Sobre la mesa no hay computadora ni libro",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "请坐。",
+      "origen": "ejemplo",
+      "pinyin": "Qǐng zuò.",
+      "es": "Siéntese, por favor",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他坐在桌子上。",
+      "origen": "ejemplo",
+      "pinyin": "Tā zuò zài zhuōzi shàng.",
+      "es": "Él está sentado sobre la mesa",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他坐在沙发上。",
+      "origen": "ejemplo",
+      "pinyin": "Tā zuò zài shāfā shàng.",
+      "es": "Él está sentado en el sofá",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "请写您的名字。",
+      "origen": "gramatica",
+      "pinyin": "Qǐng xiě nín de míngzi.",
+      "es": "Escriba su nombre, por favor",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "请喝茶。",
+      "origen": "gramatica",
+      "pinyin": "Qǐng hē chá.",
+      "es": "Tome té, por favor",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "您请坐。",
+      "origen": "gramatica",
+      "pinyin": "Nín qǐng zuò.",
+      "es": "Siéntese, por favor (usted)",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我能坐这儿吗？",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ néng zuò zhèr ma?",
+      "es": "¿Puedo sentarme aquí?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天下午我能去商店。",
+      "origen": "gramatica",
+      "pinyin": "Míngtiān xiàwǔ wǒ néng qù shāngdiàn.",
+      "es": "Mañana por la tarde puedo ir a la tienda",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你能在这儿写你的名字吗？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ néng zài zhèr xiě nǐ de míngzi ma?",
+      "es": "¿Puedes escribir tu nombre aquí?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你想买什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ xiǎng mǎi shénme?",
+      "es": "¿Qué quieres comprar?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我想买一本汉语书。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ xiǎng mǎi yì běn Hànyǔ shū.",
+      "es": "Quiero comprar un libro de chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他在我前面。",
+      "origen": "ejemplo",
+      "pinyin": "Tā zài wǒ qiánmiàn.",
+      "es": "Él está delante de mí",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "前面那个人是李老师。",
+      "origen": "ejemplo",
+      "pinyin": "Qiánmiàn nàge rén shì Lǐ lǎoshī.",
+      "es": "La persona de adelante es el profesor Li",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他在我后面。",
+      "origen": "ejemplo",
+      "pinyin": "Tā zài wǒ hòumiàn.",
+      "es": "Él está detrás de mí",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "后面那个人是我朋友。",
+      "origen": "ejemplo",
+      "pinyin": "Hòumiàn nàge rén shì wǒ péngyou.",
+      "es": "La persona de atrás es mi amigo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我的书在哪儿？",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ de shū zài nǎr?",
+      "es": "¿Dónde está mi libro?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你的书在这儿。",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ de shū zài zhèr.",
+      "es": "Tu libro está aquí",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他没有中国朋友。",
+      "origen": "ejemplo",
+      "pinyin": "Tā méiyǒu Zhōngguó péngyou.",
+      "es": "Él no tiene amigos chinos",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我没有汉语书。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ méiyǒu Hànyǔ shū.",
+      "es": "No tengo libro de chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这儿没有人。",
+      "origen": "ejemplo",
+      "pinyin": "Zhèr méiyǒu rén.",
+      "es": "Aquí no hay nadie",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "电脑在哪儿？",
+      "origen": "ejercicio",
+      "pinyin": "Diànnǎo zài nǎr?",
+      "es": "¿Dónde está la computadora?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "书在哪儿？",
+      "origen": "ejercicio",
+      "pinyin": "Shū zài nǎr?",
+      "es": "¿Dónde está el libro?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "桌子里面有什么？",
+      "origen": "ejercicio",
+      "pinyin": "Zhuōzi lǐmiàn yǒu shénme?",
+      "es": "¿Qué hay dentro de la mesa?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "哪个人是王方？",
+      "origen": "ejercicio",
+      "pinyin": "Nǎge rén shì Wáng Fāng?",
+      "es": "¿Cuál persona es Wang Fang?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "哪个人是谢鹏？",
+      "origen": "ejercicio",
+      "pinyin": "Nǎge rén shì Xiè Péng?",
+      "es": "¿Cuál persona es Xie Peng?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "桌子上有什么？",
+      "origen": "dialogo",
+      "pinyin": "Zhuōzi shang yǒu shénme?",
+      "es": "¿Qué hay sobre la mesa?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "杯子在哪儿？",
+      "origen": "dialogo",
+      "pinyin": "Bēizi zài nǎr?",
+      "es": "¿Dónde está el vaso?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "杯子在桌子里。",
+      "origen": "dialogo",
+      "pinyin": "Bēizi zài zhuōzi lǐ.",
+      "es": "El vaso está dentro de la mesa",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这儿有人吗？",
+      "origen": "dialogo",
+      "pinyin": "Zhèr yǒu rén ma?",
+      "es": "¿Hay alguien aquí?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我能坐在这儿吗？",
+      "origen": "dialogo",
+      "pinyin": "Wǒ néng zuò zài zhèr ma?",
+      "es": "¿Puedo sentarme aquí?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "前面那个人叫什么名字？",
+      "origen": "dialogo",
+      "pinyin": "Qiánmiàn nàge rén jiào shénme míngzi?",
+      "es": "¿Cómo se llama la persona de adelante?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她叫王方，在医院工作。",
+      "origen": "dialogo",
+      "pinyin": "Tā jiào Wáng Fāng, zài yīyuàn gōngzuò.",
+      "es": "Se llama Wang Fang y trabaja en el hospital",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "后面那个人呢？他叫什么名字？",
+      "origen": "dialogo",
+      "pinyin": "Hòumiàn nàge rén ne? Tā jiào shénme míngzi?",
+      "es": "¿Y la persona de atrás? ¿Cómo se llama?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他叫谢鹏，在商店工作。",
+      "origen": "dialogo",
+      "pinyin": "Tā jiào Xiè Péng, zài shāngdiàn gōngzuò.",
+      "es": "Se llama Xie Peng y trabaja en una tienda",
+      "traduccion_generada": true
+    }
+  ]
+}

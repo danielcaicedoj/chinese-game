@@ -1,0 +1,98 @@
+{
+  "id": 2,
+  "titulo": "谢谢你",
+  "titulo_pinyin": "Xièxie nǐ",
+  "titulo_es": "Gracias",
+  "fuente": "HSK1-L2.pptx",
+  "vocabulario": [
+    {
+      "caracter": "谢谢",
+      "pinyin": "xièxie",
+      "significado": "gracias, dar las gracias",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "不客气",
+      "pinyin": "bú kèqi",
+      "significado": "de nada, no hay de qué",
+      "tipo": "expresión"
+    },
+    {
+      "caracter": "不",
+      "pinyin": "bù",
+      "significado": "no",
+      "tipo": "adverbio"
+    },
+    {
+      "caracter": "再见",
+      "pinyin": "zàijiàn",
+      "significado": "adiós, hasta luego",
+      "tipo": "verbo"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "不谢！",
+      "origen": "ejemplo",
+      "pinyin": "Bú xiè!",
+      "es": "¡No hay de qué!",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "谢谢！",
+      "origen": "ejemplo",
+      "pinyin": "Xièxie!",
+      "es": "¡Gracias!",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "再见！",
+      "origen": "ejemplo",
+      "pinyin": "Zàijiàn!",
+      "es": "¡Adiós! / ¡Hasta luego!",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "谢谢你！",
+      "origen": "ejemplo",
+      "pinyin": "Xièxie nǐ!",
+      "es": "¡Gracias (a ti)!",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "不客气！",
+      "origen": "ejemplo",
+      "pinyin": "Bú kèqi!",
+      "es": "¡De nada!",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "谢谢您！",
+      "origen": "generada",
+      "pinyin": "Xièxie nín!",
+      "es": "¡Gracias (a usted)!",
+      "generada": true
+    },
+    {
+      "zh": "谢谢，再见！",
+      "origen": "generada",
+      "pinyin": "Xièxie, zàijiàn!",
+      "es": "¡Gracias, adiós!",
+      "generada": true
+    },
+    {
+      "zh": "不谢，再见！",
+      "origen": "generada",
+      "pinyin": "Bú xiè, zàijiàn!",
+      "es": "¡No hay de qué, adiós!",
+      "generada": true
+    },
+    {
+      "zh": "不客气，再见！",
+      "origen": "generada",
+      "pinyin": "Bú kèqi, zàijiàn!",
+      "es": "¡De nada, adiós!",
+      "generada": true
+    }
+  ]
+}

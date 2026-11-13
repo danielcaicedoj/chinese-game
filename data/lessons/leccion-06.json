@@ -1,0 +1,281 @@
+{
+  "id": 6,
+  "titulo": "我会说汉语",
+  "titulo_pinyin": "Wǒ huì shuō Hànyǔ",
+  "titulo_es": "Sé hablar chino",
+  "fuente": "HSK1-L6.pptx",
+  "vocabulario": [
+    {
+      "caracter": "会",
+      "pinyin": "huì",
+      "significado": "saber (tener la habilidad de)",
+      "tipo": "verbo auxiliar",
+      "significado_generado": true
+    },
+    {
+      "caracter": "说",
+      "pinyin": "shuō",
+      "significado": "hablar, decir",
+      "tipo": "verbo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "做",
+      "pinyin": "zuò",
+      "significado": "hacer, cocinar",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "菜",
+      "pinyin": "cài",
+      "significado": "plato, comida, verdura",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "好吃",
+      "pinyin": "hǎochī",
+      "significado": "rico, delicioso",
+      "tipo": "adjetivo"
+    },
+    {
+      "caracter": "很",
+      "pinyin": "hěn",
+      "significado": "muy",
+      "tipo": "adverbio"
+    },
+    {
+      "caracter": "字",
+      "pinyin": "zì",
+      "significado": "carácter, letra",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "汉字",
+      "pinyin": "Hànzì",
+      "significado": "carácter chino",
+      "tipo": "sustantivo",
+      "fuente": "manual"
+    },
+    {
+      "caracter": "读",
+      "pinyin": "dú",
+      "significado": "leer (en voz alta)",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "写",
+      "pinyin": "xiě",
+      "significado": "escribir",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "怎么",
+      "pinyin": "zěnme",
+      "significado": "cómo",
+      "tipo": "pronombre interrogativo"
+    },
+    {
+      "caracter": "妈妈",
+      "pinyin": "māma",
+      "significado": "mamá, madre",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    }
+  ],
+  "frases": [
+    {
+      "zh": "中国人说汉语。",
+      "origen": "ejemplo",
+      "pinyin": "Zhōngguórén shuō Hànyǔ.",
+      "es": "Los chinos hablan chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你会说汉语吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ huì shuō Hànyǔ ma?",
+      "es": "¿Sabes hablar chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你妈妈会说汉语吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ māma huì shuō Hànyǔ ma?",
+      "es": "¿Tu mamá sabe hablar chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我会做中国菜。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ huì zuò Zhōngguó cài.",
+      "es": "Sé cocinar comida china",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "中国菜很好吃。",
+      "origen": "ejemplo",
+      "pinyin": "Zhōngguó cài hěn hǎochī.",
+      "es": "La comida china es muy rica",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "中国菜不好吃。",
+      "origen": "ejemplo",
+      "pinyin": "Zhōngguó cài bù hǎochī.",
+      "es": "La comida china no es rica",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "中国菜很不好吃。",
+      "origen": "ejemplo",
+      "pinyin": "Zhōngguó cài hěn bù hǎochī.",
+      "es": "La comida china es nada rica",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "怎么写？",
+      "origen": "ejemplo",
+      "pinyin": "Zěnme xiě?",
+      "es": "¿Cómo se escribe?"
+    },
+    {
+      "zh": "怎么读？",
+      "origen": "ejemplo",
+      "pinyin": "Zěnme dú?",
+      "es": "¿Cómo se lee?"
+    },
+    {
+      "zh": "怎么做？",
+      "origen": "ejemplo",
+      "pinyin": "Zěnme zuò?",
+      "es": "¿Cómo se hace?"
+    },
+    {
+      "zh": "你的汉语名字怎么写？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ de Hànyǔ míngzi zěnme xiě?",
+      "es": "¿Cómo se escribe tu nombre en chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这个字怎么写？",
+      "origen": "gramatica",
+      "pinyin": "Zhège zì zěnme xiě?",
+      "es": "¿Cómo se escribe este carácter?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你吃哪国菜？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ chī nǎ guó cài?",
+      "es": "¿Comida de qué país comes?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我吃中国菜。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ chī Zhōngguó cài.",
+      "es": "Como comida china",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "做什么菜？",
+      "origen": "ejemplo",
+      "pinyin": "Zuò shénme cài?",
+      "es": "¿Qué comida preparas?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你会做中国菜吗？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ huì zuò Zhōngguó cài ma?",
+      "es": "¿Sabes cocinar comida china?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你有汉语名字吗？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ yǒu Hànyǔ míngzi ma?",
+      "es": "¿Tienes un nombre chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你会写你的汉语名字吗？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ huì xiě nǐ de Hànyǔ míngzi ma?",
+      "es": "¿Sabes escribir tu nombre en chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我会说汉语。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ huì shuō Hànyǔ.",
+      "es": "Sé hablar chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她不会说。",
+      "origen": "dialogo",
+      "pinyin": "Tā bú huì shuō.",
+      "es": "Ella no sabe hablarlo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "中国菜好吃吗？",
+      "origen": "dialogo",
+      "pinyin": "Zhōngguó cài hǎochī ma?",
+      "es": "¿La comida china es rica?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我不会做。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ bú huì zuò.",
+      "es": "No sé hacerlo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你会写汉字吗？",
+      "origen": "dialogo",
+      "pinyin": "Nǐ huì xiě Hànzì ma?",
+      "es": "¿Sabes escribir caracteres chinos?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我会写。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ huì xiě.",
+      "es": "Sé escribirlo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "对不起，这个字我会读，不会写。",
+      "origen": "dialogo",
+      "pinyin": "Duìbuqǐ, zhège zì wǒ huì dú, bú huì xiě.",
+      "es": "Lo siento, este carácter sé leerlo, pero no sé escribirlo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我不会说汉语。",
+      "origen": "generada",
+      "pinyin": "Wǒ bú huì shuō Hànyǔ.",
+      "es": "No sé hablar chino",
+      "generada": true
+    },
+    {
+      "zh": "你会读这个字吗？",
+      "origen": "generada",
+      "pinyin": "Nǐ huì dú zhège zì ma?",
+      "es": "¿Sabes leer este carácter?",
+      "generada": true
+    },
+    {
+      "zh": "我妈妈会做菜。",
+      "origen": "generada",
+      "pinyin": "Wǒ māma huì zuò cài.",
+      "es": "Mi mamá sabe cocinar",
+      "generada": true
+    }
+  ]
+}

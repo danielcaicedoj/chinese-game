@@ -25,7 +25,9 @@
   <div class="mode-tabs">
     <button type="button" class="mode-tab active" data-mode="play">🎮 Jugar</button>
     <button type="button" class="mode-tab" data-mode="review">📖 Repaso</button>
+    <button type="button" class="mode-tab" data-mode="lesson">🎓 Lección</button>
   </div>
+  <p class="total-points">⭐ Puntos totales: <strong id="total-points">0</strong></p>
 
   <p id="mode-subtitle" class="subtitle">Elige un nivel de dificultad y la cantidad de caracteres para tu partida.</p>
 
@@ -56,6 +58,64 @@
 
     <button id="btn-start" class="btn-primary" disabled>Comenzar partida</button>
     <p id="setup-error" class="setup-error"></p>
+  </div>
+</section>
+
+<!-- LECCIONES: selección -->
+<section id="screen-lessons" class="screen">
+  <h1>汉字 <span>Aprende Chino Mandarín</span></h1>
+
+  <div class="mode-tabs">
+    <button type="button" class="mode-tab" data-mode="play">🎮 Jugar</button>
+    <button type="button" class="mode-tab" data-mode="review">📖 Repaso</button>
+    <button type="button" class="mode-tab active" data-mode="lesson">🎓 Lección</button>
+  </div>
+
+  <div class="lesson-stats">
+    <span id="lesson-streak" class="stat-chip">🔥 0 días</span>
+    <span id="lesson-points" class="stat-chip">⭐ 0 puntos</span>
+  </div>
+
+  <div class="lesson-options">
+    <label class="toggle"><input type="checkbox" id="opt-pinyin" checked> Mostrar pinyin</label>
+    <label class="toggle"><input type="checkbox" id="opt-challenge"> ⏱ Desafío (con tiempo)</label>
+  </div>
+
+  <p id="lesson-empty" class="subtitle" style="display:none">No hay lecciones disponibles.</p>
+  <div id="lesson-list" class="lesson-list"></div>
+</section>
+
+<!-- LECCIÓN: sesión de ejercicios -->
+<section id="screen-lesson" class="screen">
+  <div class="lesson-topbar">
+    <button id="lesson-quit" class="btn-secondary" type="button">✕ Salir</button>
+    <div class="lesson-progress"><div id="lesson-progress-bar" class="lesson-progress-bar"></div></div>
+    <div id="lesson-hearts" class="lesson-hearts" aria-label="Vidas"></div>
+  </div>
+  <div class="lesson-meta">
+    <span id="lesson-title" class="lesson-title"></span>
+    <span class="lesson-xp">XP <strong id="lesson-xp">0</strong> <span id="lesson-mult" class="multiplier-label">x1.0</span></span>
+    <button id="lesson-pinyin-toggle" class="btn-secondary" type="button" title="Mostrar u ocultar el pinyin">拼音</button>
+  </div>
+  <div id="lesson-timer" class="timer-track" style="display:none"><div id="lesson-timer-bar" class="timer-bar"></div></div>
+  <div id="exercise" class="exercise"></div>
+  <div id="feedback" class="feedback" hidden>
+    <div id="feedback-status" class="feedback-status"></div>
+    <div id="feedback-detail" class="feedback-detail"></div>
+    <button id="feedback-speak" class="btn-secondary" type="button" hidden>🔊 Escuchar</button>
+    <button id="feedback-next" class="btn-primary" type="button">Continuar</button>
+  </div>
+</section>
+
+<!-- LECCIÓN: resumen -->
+<section id="screen-lesson-end" class="screen">
+  <h1 id="lesson-end-title">Lección completada</h1>
+  <div id="lesson-end-stars" class="lesson-end-stars"></div>
+  <div id="lesson-end-summary" class="end-summary"></div>
+  <div id="lesson-end-review" class="end-missed"></div>
+  <div class="lesson-end-actions">
+    <button id="lesson-end-retry" class="btn-secondary" type="button">Repetir lección</button>
+    <button id="lesson-end-back" class="btn-primary" type="button">Volver a las lecciones</button>
   </div>
 </section>
 
@@ -100,6 +160,11 @@
 
 <script src="data.js"></script>
 <script src="music.js"></script>
+<script src="data/lessons/lessons.js"></script>
+<script src="js/lessons/exercises.js"></script>
+<script src="js/lessons/session.js"></script>
+<script src="js/lessons/progress.js"></script>
+<script src="js/lessons/ui.js"></script>
 <script src="game.js"></script>
 <script>
   if ("serviceWorker" in navigator) {

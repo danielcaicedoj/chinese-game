@@ -20,7 +20,7 @@ html, body {
   min-height: 100vh;
   background: var(--bg);
   color: var(--text);
-  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "Segoe UI", "PingFang SC", "Noto Sans SC", "Noto Sans CJK SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 body {
@@ -66,6 +66,18 @@ h1 span {
   display: flex;
   gap: 8px;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.total-points {
+  text-align: center;
+  color: var(--text-dim);
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.total-points strong {
+  color: var(--text);
 }
 
 .mode-tab {
@@ -490,4 +502,275 @@ h1 span {
 @media (max-width: 480px) {
   #character-big { font-size: 6rem; }
   .option-btn { padding: 14px 8px; font-size: 0.9rem; }
+}
+
+
+/* ===================== Modo Lección ===================== */
+
+.hide-pinyin .py { display: none !important; }
+
+.lesson-stats {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stat-chip {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+}
+
+.lesson-options {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.lesson-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lesson-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.lesson-card:hover:not(:disabled) { border-color: var(--accent); }
+.lesson-card.locked { opacity: 0.45; cursor: not-allowed; }
+
+.lesson-num {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #142433;
+  border: 2px solid var(--accent-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.lesson-body { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.lesson-card-title { font-size: 1.15rem; font-weight: 600; }
+.lesson-card-py { color: var(--accent); font-size: 0.85rem; }
+.lesson-card-es { color: var(--text-dim); font-size: 0.9rem; }
+.lesson-card-meta { display: flex; gap: 10px; align-items: center; color: var(--text-dim); font-size: 0.8rem; margin-top: 4px; flex-wrap: wrap; }
+.lesson-stars { color: #f5c542; letter-spacing: 2px; font-size: 1rem; }
+
+/* --- sesión --- */
+
+.lesson-topbar { display: flex; align-items: center; gap: 12px; }
+
+.lesson-progress {
+  flex: 1;
+  height: 14px;
+  background: #0d1116;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.lesson-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: var(--correct);
+  transition: width 0.3s ease;
+}
+
+.lesson-hearts { font-size: 1.1rem; letter-spacing: 2px; white-space: nowrap; }
+
+.lesson-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.lesson-title { flex: 1; min-width: 0; }
+.lesson-xp strong { color: var(--text); }
+
+.exercise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.exercise .options-grid { width: 100%; }
+.options-grid.one-col { grid-template-columns: 1fr; }
+
+.ex-instruction {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.ex-sentence { font-size: 2.4rem; line-height: 1.3; text-align: center; font-weight: 500; word-break: break-word; }
+.ex-hint { color: var(--text-dim); text-align: center; }
+.ex-hint.big { font-size: 1.2rem; color: var(--text); }
+.ex-prompt-es { font-size: 1.6rem; text-align: center; font-weight: 600; }
+
+.lesson-option { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.opt-zh { font-size: 1.5rem; line-height: 1.3; }
+.one-col .opt-zh { font-size: 1.25rem; }
+.opt-py { font-size: 0.8rem; color: var(--text-dim); }
+.option-btn.correct .opt-py, .option-btn.incorrect .opt-py { color: inherit; opacity: 0.8; }
+
+.listen-btn {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  background: #142433;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+.listen-btn:hover { background: #1b3248; }
+
+.retry-badge {
+  background: rgba(241, 196, 15, 0.15);
+  color: var(--neutral);
+  border: 1px solid rgba(241, 196, 15, 0.4);
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: 0.8rem;
+}
+
+/* --- ordenar --- */
+
+.order-answer {
+  width: 100%;
+  min-height: 70px;
+  border: 2px dashed var(--panel-border);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.order-answer.correct { border-color: var(--correct); background: rgba(46, 204, 113, 0.1); }
+.order-answer.incorrect { border-color: var(--incorrect); background: rgba(255, 77, 77, 0.1); }
+
+.order-pool { width: 100%; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+
+.tile {
+  background: var(--panel);
+  border: 2px solid var(--panel-border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1.4rem;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.tile:hover:not(:disabled) { border-color: var(--accent); }
+.tile.used { opacity: 0.25; }
+.tile.placed { border-color: var(--accent-dim); }
+.tile-punct { font-size: 1.4rem; color: var(--text-dim); }
+
+/* --- emparejar --- */
+
+.match-board { width: 100%; display: grid; grid-template-columns: 0.8fr 1fr 1.3fr; gap: 10px; }
+.match-col { display: flex; flex-direction: column; gap: 8px; }
+.match-col-title { color: var(--text-dim); font-size: 0.75rem; text-transform: uppercase; text-align: center; }
+
+.match-card {
+  background: var(--panel);
+  border: 2px solid var(--panel-border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 12px 6px;
+  min-height: 52px;
+  cursor: pointer;
+  word-break: break-word;
+}
+
+.match-card.zh { font-size: 1.6rem; padding: 6px; }
+.match-card.py-card { color: var(--accent); }
+.match-card.sel { border-color: var(--accent); background: #142433; }
+.match-card.done { border-color: var(--correct); background: rgba(46, 204, 113, 0.15); color: #b6f4cf; cursor: default; }
+.match-card.wrong { border-color: var(--incorrect); background: rgba(255, 77, 77, 0.15); animation: shake 0.35s; }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+/* --- feedback --- */
+
+.feedback {
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feedback[hidden] { display: none; }
+.feedback.ok { background: rgba(46, 204, 113, 0.15); border: 1px solid var(--correct); }
+.feedback.bad { background: rgba(255, 77, 77, 0.13); border: 1px solid var(--incorrect); }
+.feedback-status { font-size: 1.2rem; font-weight: 700; }
+.feedback.ok .feedback-status { color: var(--correct); }
+.feedback.bad .feedback-status { color: var(--incorrect); }
+.feedback-detail { display: flex; flex-direction: column; gap: 6px; font-size: 0.95rem; }
+.fb-answer { font-weight: 600; }
+.fb-note { color: var(--text-dim); }
+.fb-explain { color: var(--text-dim); }
+
+/* --- resumen --- */
+
+.lesson-end-stars { text-align: center; font-size: 3rem; letter-spacing: 6px; color: var(--text-dim); }
+.lesson-end-stars.s1, .lesson-end-stars.s2, .lesson-end-stars.s3 { color: #f5c542; }
+.lesson-end-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.lesson-end-actions button { flex: 1; min-width: 180px; }
+
+@media (max-width: 480px) {
+  .ex-sentence { font-size: 1.9rem; }
+  .mode-tab { padding: 8px 12px; font-size: 0.85rem; }
+  .match-board { gap: 6px; }
+  .match-card { font-size: 0.8rem; padding: 10px 3px; }
+  .match-card.zh { font-size: 1.3rem; }
+  .lesson-card { padding: 12px; }
 }

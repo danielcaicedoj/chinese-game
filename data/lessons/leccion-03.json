@@ -1,0 +1,206 @@
+{
+  "id": 3,
+  "titulo": "你叫什么名字",
+  "titulo_pinyin": "Nǐ jiào shénme míngzi",
+  "titulo_es": "¿Cómo te llamas?",
+  "fuente": "HSK1-L3.pptx",
+  "vocabulario": [
+    {
+      "caracter": "我",
+      "pinyin": "wǒ",
+      "significado": "yo",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "叫",
+      "pinyin": "jiào",
+      "significado": "llamarse, llamar",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "什么",
+      "pinyin": "shénme",
+      "significado": "qué",
+      "tipo": "pronombre interrogativo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "名字",
+      "pinyin": "míngzi",
+      "significado": "nombre",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "是",
+      "pinyin": "shì",
+      "significado": "ser",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "老师",
+      "pinyin": "lǎoshī",
+      "significado": "profesor, maestro",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "吗",
+      "pinyin": "ma",
+      "significado": "partícula de pregunta (sí/no)",
+      "tipo": "partícula interrogativa"
+    },
+    {
+      "caracter": "学生",
+      "pinyin": "xuésheng",
+      "significado": "estudiante",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "人",
+      "pinyin": "rén",
+      "significado": "persona",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "中国",
+      "pinyin": "Zhōngguó",
+      "significado": "China",
+      "tipo": "nombre propio"
+    },
+    {
+      "caracter": "美国",
+      "pinyin": "Měiguó",
+      "significado": "Estados Unidos",
+      "tipo": "nombre propio"
+    },
+    {
+      "caracter": "我们",
+      "pinyin": "wǒmen",
+      "significado": "nosotros",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "李月",
+      "pinyin": "Lǐ Yuè",
+      "significado": "Li Yue (nombre de persona)",
+      "tipo": "nombre propio",
+      "significado_generado": true
+    },
+    {
+      "caracter": "哥伦比亚",
+      "pinyin": "Gēlúnbǐyà",
+      "significado": "Colombia",
+      "tipo": "nombre propio"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "你叫什么名字？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ jiào shénme míngzi?",
+      "es": "¿Cómo te llamas?"
+    },
+    {
+      "zh": "你好吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ hǎo ma?",
+      "es": "¿Cómo estás?"
+    },
+    {
+      "zh": "你是李月吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ shì Lǐ Yuè ma?",
+      "es": "¿Eres Li Yue?"
+    },
+    {
+      "zh": "你是老师吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ shì lǎoshī ma?",
+      "es": "¿Eres profesor?"
+    },
+    {
+      "zh": "你是中国人吗？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ shì Zhōngguórén ma?",
+      "es": "¿Eres chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你是美国人吗？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ shì Měiguórén ma?",
+      "es": "¿Eres estadounidense?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你是学生吗？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ shì xuésheng ma?",
+      "es": "¿Eres estudiante?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我叫李月。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ jiào Lǐ Yuè.",
+      "es": "Me llamo Li Yue",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我不是老师，我是学生。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ bú shì lǎoshī, wǒ shì xuésheng.",
+      "es": "No soy profesor, soy estudiante",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我不是中国人，我是美国人。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ bú shì Zhōngguórén, wǒ shì Měiguórén.",
+      "es": "No soy chino, soy estadounidense",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我是李月。",
+      "origen": "generada",
+      "pinyin": "Wǒ shì Lǐ Yuè.",
+      "es": "Soy Li Yue",
+      "generada": true
+    },
+    {
+      "zh": "我们是学生。",
+      "origen": "generada",
+      "pinyin": "Wǒmen shì xuésheng.",
+      "es": "Somos estudiantes",
+      "generada": true
+    },
+    {
+      "zh": "我是中国人。",
+      "origen": "generada",
+      "pinyin": "Wǒ shì Zhōngguórén.",
+      "es": "Soy chino",
+      "generada": true
+    },
+    {
+      "zh": "我不是学生。",
+      "origen": "generada",
+      "pinyin": "Wǒ bú shì xuésheng.",
+      "es": "No soy estudiante",
+      "generada": true
+    },
+    {
+      "zh": "李月是老师。",
+      "origen": "generada",
+      "pinyin": "Lǐ Yuè shì lǎoshī.",
+      "es": "Li Yue es profesora",
+      "generada": true
+    },
+    {
+      "zh": "你叫李月吗？",
+      "origen": "generada",
+      "pinyin": "Nǐ jiào Lǐ Yuè ma?",
+      "es": "¿Te llamas Li Yue?",
+      "generada": true
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "id": 5,
+  "titulo": "她女儿今年二十岁",
+  "titulo_pinyin": "Tā nǚ’ér jīnnián èrshí suì",
+  "titulo_es": "Su hija tiene veinte años",
+  "fuente": "HSK1-L5.pptx",
+  "vocabulario": [
+    {
+      "caracter": "有",
+      "pinyin": "yǒu",
+      "significado": "tener, haber",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "没有",
+      "pinyin": "méiyǒu",
+      "significado": "no tener, no haber",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "家",
+      "pinyin": "jiā",
+      "significado": "familia, casa",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "家人",
+      "pinyin": "jiārén",
+      "significado": "familiares, familia",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "几",
+      "pinyin": "jǐ",
+      "significado": "cuántos (hasta diez)",
+      "tipo": "pronombre interrogativo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "口",
+      "pinyin": "kǒu",
+      "significado": "(clasificador de miembros de la familia)",
+      "tipo": "clasificador"
+    },
+    {
+      "caracter": "个",
+      "pinyin": "gè",
+      "significado": "(clasificador general)",
+      "tipo": "clasificador"
+    },
+    {
+      "caracter": "女儿",
+      "pinyin": "nǚ’ér",
+      "significado": "hija",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "岁",
+      "pinyin": "suì",
+      "significado": "años (de edad)",
+      "tipo": "clasificador"
+    },
+    {
+      "caracter": "了",
+      "pinyin": "le",
+      "significado": "(partícula de cambio o situación nueva)",
+      "tipo": "partícula"
+    },
+    {
+      "caracter": "多",
+      "pinyin": "duō",
+      "significado": "cuán, muy (para preguntar grado)",
+      "tipo": "adverbio"
+    },
+    {
+      "caracter": "大",
+      "pinyin": "dà",
+      "significado": "grande, mayor",
+      "tipo": "adjetivo"
+    },
+    {
+      "caracter": "多大",
+      "pinyin": "duōdà",
+      "significado": "¿qué edad?",
+      "tipo": "expresión"
+    },
+    {
+      "caracter": "今年",
+      "pinyin": "jīnnián",
+      "significado": "este año",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "哥哥",
+      "pinyin": "gēge",
+      "significado": "hermano mayor",
+      "tipo": "sustantivo",
+      "fuente": "manual"
+    },
+    {
+      "caracter": "姐姐",
+      "pinyin": "jiějie",
+      "significado": "hermana mayor",
+      "tipo": "sustantivo",
+      "fuente": "manual"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "我有哥哥。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ yǒu gēge.",
+      "es": "Tengo un hermano mayor",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你有哥哥吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ yǒu gēge ma?",
+      "es": "¿Tienes hermano mayor?"
+    },
+    {
+      "zh": "你家有几口人？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+      "es": "¿Cuántas personas hay en tu familia?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我家有三口人。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+      "es": "En mi familia somos tres",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你有几个朋友？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ yǒu jǐ ge péngyou?",
+      "es": "¿Cuántos amigos tienes?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我有3个朋友。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ yǒu sān ge péngyou.",
+      "es": "Tengo tres amigos",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你有几个汉语老师？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ yǒu jǐ ge Hànyǔ lǎoshī?",
+      "es": "¿Cuántos profesores de chino tienes?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你有几个姐姐？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ yǒu jǐ ge jiějie?",
+      "es": "¿Cuántas hermanas mayores tienes?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我十五岁。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ shíwǔ suì.",
+      "es": "Tengo quince años"
+    },
+    {
+      "zh": "我女儿三岁。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ nǚ’ér sān suì.",
+      "es": "Mi hija tiene tres años",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你女儿几岁？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ nǚ’ér jǐ suì?",
+      "es": "¿Cuántos años tiene tu hija?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我女儿三岁了。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ nǚ’ér sān suì le.",
+      "es": "Mi hija ya tiene tres años"
+    },
+    {
+      "zh": "你女儿几岁了？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ nǚ’ér jǐ suì le?",
+      "es": "¿Cuántos años tiene ya tu hija?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "李老师今年50岁了。",
+      "origen": "gramatica",
+      "pinyin": "Lǐ lǎoshī jīnnián wǔshí suì le.",
+      "es": "La profesora Li cumple 50 años este año",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我朋友的女儿今年四岁了。",
+      "origen": "gramatica",
+      "pinyin": "Wǒ péngyou de nǚ’ér jīnnián sì suì le.",
+      "es": "La hija de mi amigo cumple cuatro años este año",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你多大了？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ duōdà le?",
+      "es": "¿Cuántos años tienes?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你女儿今年多大了？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ nǚ’ér jīnnián duōdà le?",
+      "es": "¿Cuántos años tiene tu hija este año?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "李老师多大了？",
+      "origen": "gramatica",
+      "pinyin": "Lǐ lǎoshī duōdà le?",
+      "es": "¿Cuántos años tiene la profesora Li?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这是谁的家？",
+      "origen": "ejemplo",
+      "pinyin": "Zhè shì shéi de jiā?",
+      "es": "¿De quién es esta casa?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你有中国朋友吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ yǒu Zhōngguó péngyou ma?",
+      "es": "¿Tienes amigos chinos?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她是谁的女儿？",
+      "origen": "ejemplo",
+      "pinyin": "Tā shì shéi de nǚ’ér?",
+      "es": "¿De quién es hija ella?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你今年多大了？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ jīnnián duōdà le?",
+      "es": "¿Cuántos años tienes este año?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你的汉语老师今年多大了？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ de Hànyǔ lǎoshī jīnnián duōdà le?",
+      "es": "¿Cuántos años tiene este año tu profesor de chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你的中国朋友家有几口人？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ de Zhōngguó péngyou jiā yǒu jǐ kǒu rén?",
+      "es": "¿Cuántas personas hay en la familia de tu amigo chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你的中国朋友今年多大了？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ de Zhōngguó péngyou jīnnián duōdà le?",
+      "es": "¿Cuántos años tiene este año tu amigo chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她今年四岁了。",
+      "origen": "dialogo",
+      "pinyin": "Tā jīnnián sì suì le.",
+      "es": "Ella cumple cuatro años este año",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她今年50岁了。",
+      "origen": "dialogo",
+      "pinyin": "Tā jīnnián wǔshí suì le.",
+      "es": "Ella cumple 50 años este año",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她女儿今年20岁了。",
+      "origen": "dialogo",
+      "pinyin": "Tā nǚ’ér jīnnián èrshí suì le.",
+      "es": "Su hija cumple 20 años este año",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她女儿呢？",
+      "origen": "dialogo",
+      "pinyin": "Tā nǚ’ér ne?",
+      "es": "¿Y su hija?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你几岁了？",
+      "origen": "generada",
+      "pinyin": "Nǐ jǐ suì le?",
+      "es": "¿Cuántos años tienes?",
+      "generada": true
+    },
+    {
+      "zh": "我没有姐姐。",
+      "origen": "generada",
+      "pinyin": "Wǒ méiyǒu jiějie.",
+      "es": "No tengo hermana mayor",
+      "generada": true
+    },
+    {
+      "zh": "我家有五口人。",
+      "origen": "generada",
+      "pinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
+      "es": "En mi familia somos cinco",
+      "generada": true
+    },
+    {
+      "zh": "你有女儿吗？",
+      "origen": "generada",
+      "pinyin": "Nǐ yǒu nǚ’ér ma?",
+      "es": "¿Tienes una hija?",
+      "generada": true
+    },
+    {
+      "zh": "我今年十岁了。",
+      "origen": "generada",
+      "pinyin": "Wǒ jīnnián shí suì le.",
+      "es": "Este año cumplo diez años",
+      "generada": true
+    }
+  ]
+}

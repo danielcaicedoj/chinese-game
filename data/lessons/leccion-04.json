@@ -1,0 +1,303 @@
+{
+  "id": 4,
+  "titulo": "她是我的汉语老师",
+  "titulo_pinyin": "Tā shì wǒ de Hànyǔ lǎoshī",
+  "titulo_es": "Ella es mi profesora de chino",
+  "fuente": "HSK1-L4.pptx",
+  "vocabulario": [
+    {
+      "caracter": "她",
+      "pinyin": "tā",
+      "significado": "ella",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "他",
+      "pinyin": "tā",
+      "significado": "él",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "她们",
+      "pinyin": "tāmen",
+      "significado": "ellas",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "他们",
+      "pinyin": "tāmen",
+      "significado": "ellos",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "谁",
+      "pinyin": "shéi",
+      "significado": "quién",
+      "tipo": "pronombre interrogativo"
+    },
+    {
+      "caracter": "的",
+      "pinyin": "de",
+      "significado": "de (partícula de posesión)",
+      "tipo": "partícula"
+    },
+    {
+      "caracter": "汉语",
+      "pinyin": "Hànyǔ",
+      "significado": "chino (idioma)",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "哪",
+      "pinyin": "nǎ",
+      "significado": "cuál, qué",
+      "tipo": "pronombre interrogativo"
+    },
+    {
+      "caracter": "国",
+      "pinyin": "guó",
+      "significado": "país",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "呢",
+      "pinyin": "ne",
+      "significado": "¿y...? (partícula interrogativa)",
+      "tipo": "partícula interrogativa"
+    },
+    {
+      "caracter": "同学",
+      "pinyin": "tóngxué",
+      "significado": "compañero de clase",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "朋友",
+      "pinyin": "péngyou",
+      "significado": "amigo",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "英国",
+      "pinyin": "Yīngguó",
+      "significado": "Reino Unido, Inglaterra",
+      "tipo": "nombre propio"
+    },
+    {
+      "caracter": "法国",
+      "pinyin": "Fǎguó",
+      "significado": "Francia",
+      "tipo": "nombre propio"
+    },
+    {
+      "caracter": "西班牙语",
+      "pinyin": "Xībānyáyǔ",
+      "significado": "español (idioma)",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "马丁",
+      "pinyin": "Mǎdīng",
+      "significado": "Martín (nombre de persona)",
+      "tipo": "nombre propio",
+      "fuente": "manual"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "你是哪国人？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ shì nǎ guó rén?",
+      "es": "¿De qué país eres?"
+    },
+    {
+      "zh": "我是中国人。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ shì Zhōngguórén.",
+      "es": "Soy chino"
+    },
+    {
+      "zh": "我们是好朋友。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒmen shì hǎo péngyou.",
+      "es": "Somos buenos amigos"
+    },
+    {
+      "zh": "我很好，你呢？",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+      "es": "Estoy muy bien, ¿y tú?"
+    },
+    {
+      "zh": "我也很好。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ yě hěn hǎo.",
+      "es": "Yo también estoy bien"
+    },
+    {
+      "zh": "我是中国人，你呢？",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ shì Zhōngguórén, nǐ ne?",
+      "es": "Soy chino, ¿y tú?"
+    },
+    {
+      "zh": "我不是老师，我是学生。你呢？",
+      "origen": "gramatica",
+      "pinyin": "Wǒ bú shì lǎoshī, wǒ shì xuésheng. Nǐ ne?",
+      "es": "No soy profesor, soy estudiante. ¿Y tú?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她叫李月。他呢？",
+      "origen": "gramatica",
+      "pinyin": "Tā jiào Lǐ Yuè. Tā ne?",
+      "es": "Ella se llama Li Yue. ¿Y él?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我是美国人。你呢？",
+      "origen": "gramatica",
+      "pinyin": "Wǒ shì Měiguórén. Nǐ ne?",
+      "es": "Soy estadounidense. ¿Y tú?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他是谁？",
+      "origen": "ejemplo",
+      "pinyin": "Tā shì shéi?",
+      "es": "¿Quién es él?"
+    },
+    {
+      "zh": "他是马丁。",
+      "origen": "ejemplo",
+      "pinyin": "Tā shì Mǎdīng.",
+      "es": "Él es Martín"
+    },
+    {
+      "zh": "你叫什么名字？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ jiào shénme míngzi?",
+      "es": "¿Cómo te llamas?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你的汉语老师是哪国人？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ de Hànyǔ lǎoshī shì nǎ guó rén?",
+      "es": "¿De qué país es tu profesor de chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你的汉语老师叫什么名字？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ de Hànyǔ lǎoshī jiào shénme míngzi?",
+      "es": "¿Cómo se llama tu profesor de chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "李月是你朋友吗？",
+      "origen": "ejercicio",
+      "pinyin": "Lǐ Yuè shì nǐ péngyou ma?",
+      "es": "¿Li Yue es tu amiga?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她是谁？",
+      "origen": "dialogo",
+      "pinyin": "Tā shì shéi?",
+      "es": "¿Quién es ella?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她是我的汉语老师，她叫李月。",
+      "origen": "dialogo",
+      "pinyin": "Tā shì wǒ de Hànyǔ lǎoshī, tā jiào Lǐ Yuè.",
+      "es": "Ella es mi profesora de chino, se llama Li Yue",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我是美国人，你呢？",
+      "origen": "dialogo",
+      "pinyin": "Wǒ shì Měiguórén, nǐ ne?",
+      "es": "Soy estadounidense, ¿y tú?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他是我同学。",
+      "origen": "dialogo",
+      "pinyin": "Tā shì wǒ tóngxué.",
+      "es": "Él es mi compañero de clase",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她呢？她是你同学吗？",
+      "origen": "dialogo",
+      "pinyin": "Tā ne? Tā shì nǐ tóngxué ma?",
+      "es": "¿Y ella? ¿Es tu compañera de clase?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她不是我同学，她是我朋友。",
+      "origen": "dialogo",
+      "pinyin": "Tā bú shì wǒ tóngxué, tā shì wǒ péngyou.",
+      "es": "Ella no es mi compañera de clase, es mi amiga",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她是李月。",
+      "origen": "generada",
+      "pinyin": "Tā shì Lǐ Yuè.",
+      "es": "Ella es Li Yue",
+      "generada": true
+    },
+    {
+      "zh": "我的朋友是中国人。",
+      "origen": "generada",
+      "pinyin": "Wǒ de péngyou shì Zhōngguórén.",
+      "es": "Mi amigo es chino",
+      "generada": true
+    },
+    {
+      "zh": "你是我的同学吗？",
+      "origen": "generada",
+      "pinyin": "Nǐ shì wǒ de tóngxué ma?",
+      "es": "¿Eres mi compañero de clase?",
+      "generada": true
+    },
+    {
+      "zh": "我们是同学。",
+      "origen": "generada",
+      "pinyin": "Wǒmen shì tóngxué.",
+      "es": "Somos compañeros de clase",
+      "generada": true
+    },
+    {
+      "zh": "他们是美国人。",
+      "origen": "generada",
+      "pinyin": "Tāmen shì Měiguórén.",
+      "es": "Ellos son estadounidenses",
+      "generada": true
+    },
+    {
+      "zh": "她们是中国人。",
+      "origen": "generada",
+      "pinyin": "Tāmen shì Zhōngguórén.",
+      "es": "Ellas son chinas",
+      "generada": true
+    },
+    {
+      "zh": "她是法国人吗？",
+      "origen": "generada",
+      "pinyin": "Tā shì Fǎguórén ma?",
+      "es": "¿Ella es francesa?",
+      "generada": true
+    },
+    {
+      "zh": "他是英国人。",
+      "origen": "generada",
+      "pinyin": "Tā shì Yīngguórén.",
+      "es": "Él es británico",
+      "generada": true
+    }
+  ]
+}

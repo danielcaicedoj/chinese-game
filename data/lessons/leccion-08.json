@@ -1,0 +1,448 @@
+{
+  "id": 8,
+  "titulo": "我想喝茶",
+  "titulo_pinyin": "Wǒ xiǎng hē chá",
+  "titulo_es": "Quiero beber té",
+  "fuente": "HSK1-L8.pptx",
+  "vocabulario": [
+    {
+      "caracter": "想",
+      "pinyin": "xiǎng",
+      "significado": "querer, pensar, extrañar",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "喝",
+      "pinyin": "hē",
+      "significado": "beber",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "茶",
+      "pinyin": "chá",
+      "significado": "té",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "杯子",
+      "pinyin": "bēizi",
+      "significado": "vaso, taza",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "买",
+      "pinyin": "mǎi",
+      "significado": "comprar",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "吃",
+      "pinyin": "chī",
+      "significado": "comer",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "米饭",
+      "pinyin": "mǐfàn",
+      "significado": "arroz cocido",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "吃饭",
+      "pinyin": "chīfàn",
+      "significado": "comer (una comida)",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "上午",
+      "pinyin": "shàngwǔ",
+      "significado": "mañana (antes del mediodía)",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "中午",
+      "pinyin": "zhōngwǔ",
+      "significado": "mediodía",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "下午",
+      "pinyin": "xiàwǔ",
+      "significado": "tarde",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "商店",
+      "pinyin": "shāngdiàn",
+      "significado": "tienda",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "书店",
+      "pinyin": "shūdiàn",
+      "significado": "librería",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "药店",
+      "pinyin": "yàodiàn",
+      "significado": "farmacia",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "面包店",
+      "pinyin": "miànbāodiàn",
+      "significado": "panadería",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "钱",
+      "pinyin": "qián",
+      "significado": "dinero",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "块",
+      "pinyin": "kuài",
+      "significado": "yuan (unidad monetaria)",
+      "tipo": "clasificador",
+      "significado_generado": true
+    },
+    {
+      "caracter": "多少",
+      "pinyin": "duōshao",
+      "significado": "cuánto, cuántos",
+      "tipo": "pronombre interrogativo"
+    },
+    {
+      "caracter": "这",
+      "pinyin": "zhè",
+      "significado": "este, esto",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "那",
+      "pinyin": "nà",
+      "significado": "ese, eso, aquel",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "咖啡",
+      "pinyin": "kāfēi",
+      "significado": "café",
+      "tipo": "sustantivo",
+      "fuente": "manual"
+    },
+    {
+      "caracter": "水",
+      "pinyin": "shuǐ",
+      "significado": "agua",
+      "tipo": "sustantivo",
+      "fuente": "manual"
+    },
+    {
+      "caracter": "可乐",
+      "pinyin": "kělè",
+      "significado": "cola (refresco)",
+      "tipo": "sustantivo",
+      "fuente": "manual"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "你想喝什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ xiǎng hē shénme?",
+      "es": "¿Qué quieres beber?"
+    },
+    {
+      "zh": "我想喝茶。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ xiǎng hē chá.",
+      "es": "Quiero beber té",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我想去学校。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ xiǎng qù xuéxiào.",
+      "es": "Quiero ir a la escuela",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我想你。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ xiǎng nǐ.",
+      "es": "Te extraño"
+    },
+    {
+      "zh": "我想我的姐姐。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ xiǎng wǒ de jiějie.",
+      "es": "Extraño a mi hermana mayor",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我想买一个杯子。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ xiǎng mǎi yí ge bēizi.",
+      "es": "Quiero comprar un vaso",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我想学汉语。",
+      "origen": "gramatica",
+      "pinyin": "Wǒ xiǎng xué Hànyǔ.",
+      "es": "Quiero aprender chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天我想去学校看书。",
+      "origen": "gramatica",
+      "pinyin": "Míngtiān wǒ xiǎng qù xuéxiào kàn shū.",
+      "es": "Mañana quiero ir a la escuela a leer",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你想吃什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ xiǎng chī shénme?",
+      "es": "¿Qué quieres comer?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这是什么？",
+      "origen": "ejemplo",
+      "pinyin": "Zhè shì shénme?",
+      "es": "¿Qué es esto?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这是杯子。",
+      "origen": "ejemplo",
+      "pinyin": "Zhè shì bēizi.",
+      "es": "Esto es un vaso",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "那是什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nà shì shénme?",
+      "es": "¿Qué es eso?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "那是汉语书。",
+      "origen": "ejemplo",
+      "pinyin": "Nà shì Hànyǔ shū.",
+      "es": "Eso es un libro de chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你去书店做什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ qù shūdiàn zuò shénme?",
+      "es": "¿Qué vas a hacer a la librería?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去书店看书。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ qù shūdiàn kàn shū.",
+      "es": "Voy a la librería a leer",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去书店买书。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ qù shūdiàn mǎi shū.",
+      "es": "Voy a la librería a comprar libros",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你去面包店做什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ qù miànbāodiàn zuò shénme?",
+      "es": "¿Qué vas a hacer a la panadería?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你去药店做什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ qù yàodiàn zuò shénme?",
+      "es": "¿Qué vas a hacer a la farmacia?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去药店买药。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ qù yàodiàn mǎi yào.",
+      "es": "Voy a la farmacia a comprar medicina",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "多少钱？",
+      "origen": "ejemplo",
+      "pinyin": "Duōshao qián?",
+      "es": "¿Cuánto cuesta?"
+    },
+    {
+      "zh": "这个杯子多少钱？",
+      "origen": "ejemplo",
+      "pinyin": "Zhège bēizi duōshao qián?",
+      "es": "¿Cuánto cuesta este vaso?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "一个杯子多少钱？",
+      "origen": "ejemplo",
+      "pinyin": "Yí ge bēizi duōshao qián?",
+      "es": "¿Cuánto cuesta un vaso?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你喝什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ hē shénme?",
+      "es": "¿Qué bebes?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我喝茶。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ hē chá.",
+      "es": "Bebo té",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你吃什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ chī shénme?",
+      "es": "¿Qué comes?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我吃米饭。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ chī mǐfàn.",
+      "es": "Como arroz",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你去哪儿？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ qù nǎr?",
+      "es": "¿Adónde vas?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去商店。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ qù shāngdiàn.",
+      "es": "Voy a la tienda",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你买什么？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ mǎi shénme?",
+      "es": "¿Qué compras?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我买杯子。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ mǎi bēizi.",
+      "es": "Compro un vaso",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "李老师家有六口人。",
+      "origen": "gramatica",
+      "pinyin": "Lǐ lǎoshī jiā yǒu liù kǒu rén.",
+      "es": "En la familia del profesor Li son seis personas",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你家有几口人？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+      "es": "¿Cuántas personas hay en tu familia?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我家有三口人。",
+      "origen": "gramatica",
+      "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+      "es": "En mi familia somos tres",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天下午你想做什么？",
+      "origen": "ejercicio",
+      "pinyin": "Míngtiān xiàwǔ nǐ xiǎng zuò shénme?",
+      "es": "¿Qué quieres hacer mañana por la tarde?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你去哪个商店买杯子？",
+      "origen": "ejercicio",
+      "pinyin": "Nǐ qù nǎge shāngdiàn mǎi bēizi?",
+      "es": "¿A qué tienda vas a comprar vasos?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我想吃米饭。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ xiǎng chī mǐfàn.",
+      "es": "Quiero comer arroz",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "下午你想去做什么？",
+      "origen": "dialogo",
+      "pinyin": "Xiàwǔ nǐ xiǎng qù zuò shénme?",
+      "es": "¿Qué quieres ir a hacer por la tarde?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "下午我想去商店。",
+      "origen": "dialogo",
+      "pinyin": "Xiàwǔ wǒ xiǎng qù shāngdiàn.",
+      "es": "Por la tarde quiero ir a la tienda",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你想买什么？",
+      "origen": "dialogo",
+      "pinyin": "Nǐ xiǎng mǎi shénme?",
+      "es": "¿Qué quieres comprar?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你好！这个杯子多少钱？",
+      "origen": "dialogo",
+      "pinyin": "Nǐ hǎo! Zhège bēizi duōshao qián?",
+      "es": "¡Hola! ¿Cuánto cuesta este vaso?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "那个杯子多少钱？",
+      "origen": "dialogo",
+      "pinyin": "Nàge bēizi duōshao qián?",
+      "es": "¿Cuánto cuesta aquel vaso?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "那个杯子18块钱。",
+      "origen": "dialogo",
+      "pinyin": "Nàge bēizi shíbā kuài qián.",
+      "es": "Aquel vaso cuesta 18 yuanes",
+      "traduccion_generada": true
+    }
+  ]
+}

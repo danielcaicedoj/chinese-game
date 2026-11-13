@@ -1,4 +1,4 @@
-const CACHE_NAME = "chinese-game-v2";
+const CACHE_NAME = "chinese-game-v3";
 
 const PRECACHE_URLS = [
   "./",
@@ -7,6 +7,11 @@ const PRECACHE_URLS = [
   "game.js",
   "data.js",
   "music.js",
+  "data/lessons/lessons.js",
+  "js/lessons/exercises.js",
+  "js/lessons/session.js",
+  "js/lessons/progress.js",
+  "js/lessons/ui.js",
   "manifest.json",
   "icons/icon-192.png",
   "icons/icon-512.png",

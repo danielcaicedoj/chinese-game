@@ -1,0 +1,379 @@
+{
+  "id": 7,
+  "titulo": "今天几号",
+  "titulo_pinyin": "Jīntiān jǐ hào",
+  "titulo_es": "¿A cuántos estamos hoy?",
+  "fuente": "HSK1-L7.pptx",
+  "vocabulario": [
+    {
+      "caracter": "今天",
+      "pinyin": "jīntiān",
+      "significado": "hoy",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "昨天",
+      "pinyin": "zuótiān",
+      "significado": "ayer",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "明天",
+      "pinyin": "míngtiān",
+      "significado": "mañana (el día siguiente)",
+      "tipo": "sustantivo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "星期",
+      "pinyin": "xīngqī",
+      "significado": "semana, día de la semana",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "月",
+      "pinyin": "yuè",
+      "significado": "mes, luna",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "号",
+      "pinyin": "hào",
+      "significado": "día del mes, número",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "请",
+      "pinyin": "qǐng",
+      "significado": "por favor, invitar",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "问",
+      "pinyin": "wèn",
+      "significado": "preguntar",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "请问",
+      "pinyin": "qǐngwèn",
+      "significado": "disculpe, ¿puedo preguntar...?",
+      "tipo": "expresión",
+      "significado_generado": true
+    },
+    {
+      "caracter": "去",
+      "pinyin": "qù",
+      "significado": "ir",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "学校",
+      "pinyin": "xuéxiào",
+      "significado": "escuela, colegio",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "看",
+      "pinyin": "kàn",
+      "significado": "mirar, ver, leer",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "书",
+      "pinyin": "shū",
+      "significado": "libro",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "爱",
+      "pinyin": "ài",
+      "significado": "amar, gustar mucho",
+      "tipo": "verbo",
+      "fuente": "manual"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "今天星期几？",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān xīngqī jǐ?",
+      "es": "¿Qué día de la semana es hoy?"
+    },
+    {
+      "zh": "今天星期三。",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān xīngqī sān.",
+      "es": "Hoy es miércoles"
+    },
+    {
+      "zh": "今天是星期几？",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān shì xīngqī jǐ?",
+      "es": "¿Qué día de la semana es hoy?"
+    },
+    {
+      "zh": "今天是星期三。",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān shì xīngqī sān.",
+      "es": "Hoy es miércoles"
+    },
+    {
+      "zh": "昨天星期几？",
+      "origen": "ejemplo",
+      "pinyin": "Zuótiān xīngqī jǐ?",
+      "es": "¿Qué día de la semana fue ayer?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "昨天是星期几？",
+      "origen": "ejemplo",
+      "pinyin": "Zuótiān shì xīngqī jǐ?",
+      "es": "¿Qué día de la semana fue ayer?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天星期几？",
+      "origen": "ejemplo",
+      "pinyin": "Míngtiān xīngqī jǐ?",
+      "es": "¿Qué día de la semana es mañana?"
+    },
+    {
+      "zh": "明天是星期几？",
+      "origen": "ejemplo",
+      "pinyin": "Míngtiān shì xīngqī jǐ?",
+      "es": "¿Qué día de la semana es mañana?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "今天几号？",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān jǐ hào?",
+      "es": "¿A cuántos estamos hoy?"
+    },
+    {
+      "zh": "今天是11号。",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān shì shíyī hào.",
+      "es": "Hoy es el día 11",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "今天几月几号？",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān jǐ yuè jǐ hào?",
+      "es": "¿En qué mes y día estamos hoy?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "今天是几月几号？",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān shì jǐ yuè jǐ hào?",
+      "es": "¿Qué fecha es hoy?"
+    },
+    {
+      "zh": "今天3月23号。",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān sān yuè èrshísān hào.",
+      "es": "Hoy es 23 de marzo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "今天是4月11号。",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān shì sì yuè shíyī hào.",
+      "es": "Hoy es 11 de abril",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "请进。",
+      "origen": "ejemplo",
+      "pinyin": "Qǐng jìn.",
+      "es": "Pase, por favor"
+    },
+    {
+      "zh": "请问，今天是几号？",
+      "origen": "ejemplo",
+      "pinyin": "Qǐngwèn, jīntiān shì jǐ hào?",
+      "es": "Disculpe, ¿a cuántos estamos hoy?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "今天是3月27号。",
+      "origen": "ejemplo",
+      "pinyin": "Jīntiān shì sān yuè èrshíqī hào.",
+      "es": "Hoy es 27 de marzo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "请问，今天是星期几？",
+      "origen": "ejemplo",
+      "pinyin": "Qǐngwèn, jīntiān shì xīngqī jǐ?",
+      "es": "Disculpe, ¿qué día de la semana es hoy?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这是什么书？",
+      "origen": "ejemplo",
+      "pinyin": "Zhè shì shénme shū?",
+      "es": "¿Qué libro es este?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这是汉语书。",
+      "origen": "ejemplo",
+      "pinyin": "Zhè shì Hànyǔ shū.",
+      "es": "Este es un libro de chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我爱看书。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ ài kàn shū.",
+      "es": "Me encanta leer",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去学校看书。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ qù xuéxiào kàn shū.",
+      "es": "Voy a la escuela a leer",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我有一本汉语书。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ yǒu yì běn Hànyǔ shū.",
+      "es": "Tengo un libro de chino",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你去学校吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ qù xuéxiào ma?",
+      "es": "¿Vas a la escuela?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我不去学校，我去朋友家。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ bú qù xuéxiào, wǒ qù péngyou jiā.",
+      "es": "No voy a la escuela, voy a casa de un amigo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你今天好吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ jīntiān hǎo ma?",
+      "es": "¿Cómo estás hoy?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我今天很好。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ jīntiān hěn hǎo.",
+      "es": "Hoy estoy muy bien",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "今天几月几号星期几？",
+      "origen": "ejercicio",
+      "pinyin": "Jīntiān jǐ yuè jǐ hào xīngqī jǐ?",
+      "es": "¿Qué fecha y qué día de la semana es hoy?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天几月几号星期几？",
+      "origen": "ejercicio",
+      "pinyin": "Míngtiān jǐ yuè jǐ hào xīngqī jǐ?",
+      "es": "¿Qué fecha y qué día de la semana es mañana?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "昨天几月几号星期几？",
+      "origen": "ejercicio",
+      "pinyin": "Zuótiān jǐ yuè jǐ hào xīngqī jǐ?",
+      "es": "¿Qué fecha y qué día de la semana fue ayer?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天你去哪儿做什么？",
+      "origen": "ejercicio",
+      "pinyin": "Míngtiān nǐ qù nǎr zuò shénme?",
+      "es": "Mañana, ¿adónde vas y qué haces?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "星期日你去哪儿做什么？",
+      "origen": "ejercicio",
+      "pinyin": "Xīngqīrì nǐ qù nǎr zuò shénme?",
+      "es": "El domingo, ¿adónde vas y qué haces?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "请问，今天几号？",
+      "origen": "dialogo",
+      "pinyin": "Qǐngwèn, jīntiān jǐ hào?",
+      "es": "Disculpe, ¿a cuántos estamos hoy?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "今天9月1号。",
+      "origen": "dialogo",
+      "pinyin": "Jīntiān jiǔ yuè yī hào.",
+      "es": "Hoy es 1 de septiembre",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "昨天是几月几号？",
+      "origen": "dialogo",
+      "pinyin": "Zuótiān shì jǐ yuè jǐ hào?",
+      "es": "¿Qué fecha fue ayer?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "昨天是8月31号，星期二。",
+      "origen": "dialogo",
+      "pinyin": "Zuótiān shì bā yuè sānshíyī hào, xīngqī èr.",
+      "es": "Ayer fue martes, 31 de agosto",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天呢？",
+      "origen": "dialogo",
+      "pinyin": "Míngtiān ne?",
+      "es": "¿Y mañana?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天是9月2号，星期四。",
+      "origen": "dialogo",
+      "pinyin": "Míngtiān shì jiǔ yuè èr hào, xīngqī sì.",
+      "es": "Mañana es jueves, 2 de septiembre",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "明天星期六，你去学校吗？",
+      "origen": "dialogo",
+      "pinyin": "Míngtiān xīngqī liù, nǐ qù xuéxiào ma?",
+      "es": "Mañana es sábado, ¿vas a la escuela?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去学校。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ qù xuéxiào.",
+      "es": "Voy a la escuela",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你去学校做什么？",
+      "origen": "dialogo",
+      "pinyin": "Nǐ qù xuéxiào zuò shénme?",
+      "es": "¿Qué vas a hacer a la escuela?",
+      "traduccion_generada": true
+    }
+  ]
+}

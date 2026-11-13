@@ -78,7 +78,8 @@
   let currentAudio = null;
 
   function showScreen(name) {
-    Object.values(screens).forEach((s) => s.classList.remove("active"));
+    // Desactiva TODAS las pantallas (incluidas las del modo Lección) y activa la pedida.
+    document.querySelectorAll(".screen").forEach((s) => s.classList.remove("active"));
     screens[name].classList.add("active");
   }
 
@@ -183,6 +184,7 @@
   // --- Modo Jugar / Repaso ---
   function setMode(newMode) {
     mode = newMode;
+    showScreen("setup");
     modeTabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.mode === newMode));
     playOptions.style.display = newMode === "review" ? "none" : "";
     modeSubtitle.textContent =
@@ -194,8 +196,18 @@
   }
 
   modeTabs.forEach((tab) => {
+    // La pestaña "Lección" la maneja js/lessons/ui.js
+    if (tab.dataset.mode === "lesson") return;
     tab.addEventListener("click", () => setMode(tab.dataset.mode));
   });
+
+  // --- Puntos totales (compartidos con el modo Lección) ---
+  const totalPointsEl = document.getElementById("total-points");
+  function updateTotalPoints() {
+    if (window.LessonProgress && totalPointsEl) {
+      totalPointsEl.textContent = String(window.LessonProgress.shared().getTotalPoints());
+    }
+  }
 
   // --- Pantalla de repaso ---
   function showReview(chars, name) {
@@ -519,6 +531,8 @@
 
   function endGame() {
     stopMusic();
+    if (window.LessonProgress && score > 0) window.LessonProgress.shared().addPoints(score);
+    updateTotalPoints();
     showScreen("end");
     const answered = correctCount + wrongCount + timeoutCount;
     const accuracy = answered > 0 ? Math.round((correctCount / answered) * 100) : 0;
@@ -548,9 +562,11 @@
     showScreen("setup");
     setupError.textContent = "";
     renderTopLevels();
+    updateTotalPoints();
   });
 
   // --- Inicialización ---
   renderTopLevels();
   updateStartButtonState();
+  updateTotalPoints();
 })();

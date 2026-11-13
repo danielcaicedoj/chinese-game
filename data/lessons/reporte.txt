@@ -1,0 +1,56 @@
+REPORTE DE EXTRACCION
+=====================
+
+Leccion  2 谢谢你: 4 palabras, 9 frases (5 con traduccion generada, 4 frases generadas)
+Leccion  3 你叫什么名字: 14 palabras, 16 frases (6 con traduccion generada, 6 frases generadas)
+Leccion  4 她是我的汉语老师: 16 palabras, 29 frases (13 con traduccion generada, 8 frases generadas)
+Leccion  5 她女儿今年二十岁: 16 palabras, 34 frases (26 con traduccion generada, 5 frases generadas)
+Leccion  6 我会说汉语: 12 palabras, 28 frases (22 con traduccion generada, 3 frases generadas)
+Leccion  7 今天几号: 14 palabras, 41 frases (33 con traduccion generada, 0 frases generadas)
+Leccion  8 我想喝茶: 23 palabras, 42 frases (39 con traduccion generada, 0 frases generadas)
+Leccion  9 你儿子在哪儿工作: 17 palabras, 40 frases (36 con traduccion generada, 0 frases generadas)
+Leccion 10 我能坐这儿吗: 13 palabras, 40 frases (40 con traduccion generada, 0 frases generadas)
+
+INCONSISTENCIAS / REVISAR
+ - [HSK1-L1.pptx] omitida (SKIP_LESSONS: leccion de fonetica)
+ - [L4] '马丁' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L4] pinyin de frase corregido: 我们是好朋友。  PPTX 'wǒmen shì péngyou' -> 'Wǒmen shì hǎo péngyou.'
+ - [L4] pinyin de frase corregido: 我不是老师，我是学生。你呢？  PPTX 'lǎoshī xuésheng' -> 'Wǒ bú shì lǎoshī, wǒ shì xuésheng. Nǐ ne?'
+ - [L4] pinyin de frase corregido: 她叫李月。他呢？  PPTX 'Lǐ Yuè' -> 'Tā jiào Lǐ Yuè. Tā ne?'
+ - [L4] pinyin de frase corregido: 我是美国人。你呢？  PPTX 'měiguó' -> 'Wǒ shì Měiguórén. Nǐ ne?'
+ - [L4] pinyin de frase corregido: 李月是你朋友吗？  PPTX 'Lǐ Yuè shì nǐ péngyou ma? bu, ta bushi wo pengyou' -> 'Lǐ Yuè shì nǐ péngyou ma?'
+ - [L5] pinyin distinto en '女儿': PPTX 'nǔ’ér' -> final 'nǚ’ér'
+ - [L5] '哥哥' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L5] '姐姐' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L5] pinyin de frase corregido: 你有几个朋友？  PPTX 'nǐ yǒu jǐ gè péngyou' -> 'Nǐ yǒu jǐ ge péngyou?'
+ - [L5] pinyin de frase corregido: 你有几个汉语老师？  PPTX 'jǐ gè hànyǔ lǎoshī' -> 'Nǐ yǒu jǐ ge Hànyǔ lǎoshī?'
+ - [L5] pinyin de frase corregido: 你有几个姐姐？  PPTX 'nǐ yǒu jǐ gè jiějie' -> 'Nǐ yǒu jǐ ge jiějie?'
+ - [L5] pinyin de frase corregido: 她女儿今年20岁了。  PPTX 'Tā n’ér jīnnián èrshí suì le' -> 'Tā nǚ’ér jīnnián èrshí suì le.'
+ - [L6] '汉字' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L6] pinyin de frase corregido: 你妈妈会说汉语吗？  PPTX 'nǐ mama huì shuō hànyǔ ma？' -> 'Nǐ māma huì shuō Hànyǔ ma?'
+ - [L6] pinyin de frase corregido: 对不起，这个字我会读，不会写。  PPTX 'Duìbùqǐ zhège zì wǒ huì dú bú huì xiě' -> 'Duìbuqǐ, zhège zì wǒ huì dú, bú huì xiě.'
+ - [L7] '爱' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L7] pinyin de frase corregido: 昨天星期几？  PPTX 'Que día fue ayer?' -> 'Zuótiān xīngqī jǐ?'
+ - [L7] pinyin de frase corregido: 今天是11号。  PPTX 'jīntiān shi11 hào' -> 'Jīntiān shì shíyī hào.'
+ - [L7] pinyin de frase corregido: 今天3月23号。  PPTX 'jīntiān shì sān yuè èrshísān hào' -> 'Jīntiān sān yuè èrshísān hào.'
+ - [L7] pinyin de frase corregido: 今天是4月11号。  PPTX 'jīntiān sì yuè shíyī hào' -> 'Jīntiān shì sì yuè shíyī hào.'
+ - [L8] '咖啡' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L8] '水' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L8] '可乐' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L8] pinyin de frase corregido: 你想喝什么？  PPTX 'xiǎng hē' -> 'Nǐ xiǎng hē shénme?'
+ - [L8] pinyin de frase corregido: 我想去学校。  PPTX 'qù xuéxiào' -> 'Wǒ xiǎng qù xuéxiào.'
+ - [L8] pinyin de frase corregido: 我想买一个杯子。  PPTX 'wǒ xiǎng mǎi yī gè bēizi' -> 'Wǒ xiǎng mǎi yí ge bēizi.'
+ - [L8] pinyin de frase corregido: 这个杯子多少钱？  PPTX 'zhè gè bēizi duōshao qián？' -> 'Zhège bēizi duōshao qián?'
+ - [L8] pinyin de frase corregido: 一个杯子多少钱？  PPTX 'yī gè bēizi duōshao qián？' -> 'Yí ge bēizi duōshao qián?'
+ - [L9] '上面' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L9] '下面' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L9] pinyin de frase corregido: 这个杯子很大，那个杯子很小。  PPTX 'zhè gè bēizi hěn dà，nà gè bēizi hěn xiǎo。' -> 'Zhège bēizi hěn dà, nàge bēizi hěn xiǎo.'
+ - [L9] pinyin de frase corregido: 我有一只狗。  PPTX 'wǒ yǒu yī zhī gǒu' -> 'Wǒ yǒu yì zhī gǒu.'
+ - [L9] pinyin de frase corregido: 我朋友有一只猫。  PPTX 'wǒ péngyou yǒu yī zhī māo.' -> 'Wǒ péngyou yǒu yì zhī māo.'
+ - [L9] pinyin de frase corregido: 猫在桌子上面。  PPTX 'māo zài zhuōzimesa shàngmiàn' -> 'Māo zài zhuōzi shàngmiàn.'
+ - [L10] pinyin distinto en '里': PPTX 'li' -> final 'lǐ'
+ - [L10] '里面' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L10] pinyin distinto en '上': PPTX 'shang' -> final 'shàng'
+ - [L10] '词典' no aparece como palabra en el PPTX (valor manual de lessons_extra.json)
+ - [L10] pinyin de frase corregido: 他坐在沙发上。  PPTX 'shafa' -> 'Tā zuò zài shāfā shàng.'
+ - [L10] pinyin de frase corregido: 杯子在桌子里。  PPTX 'Bēizi zài zhuōzi li' -> 'Bēizi zài zhuōzi lǐ.'

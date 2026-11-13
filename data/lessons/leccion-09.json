@@ -1,0 +1,392 @@
+{
+  "id": 9,
+  "titulo": "你儿子在哪儿工作",
+  "titulo_pinyin": "Nǐ érzi zài nǎr gōngzuò",
+  "titulo_es": "¿Dónde trabaja tu hijo?",
+  "fuente": "HSK1-L9.pptx",
+  "vocabulario": [
+    {
+      "caracter": "在",
+      "pinyin": "zài",
+      "significado": "estar (en), en",
+      "tipo": "verbo"
+    },
+    {
+      "caracter": "哪儿",
+      "pinyin": "nǎr",
+      "significado": "dónde",
+      "tipo": "pronombre interrogativo"
+    },
+    {
+      "caracter": "那儿",
+      "pinyin": "nàr",
+      "significado": "allí, allá",
+      "tipo": "pronombre"
+    },
+    {
+      "caracter": "工作",
+      "pinyin": "gōngzuò",
+      "significado": "trabajar, trabajo",
+      "tipo": "verbo",
+      "significado_generado": true
+    },
+    {
+      "caracter": "儿子",
+      "pinyin": "érzi",
+      "significado": "hijo",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "医院",
+      "pinyin": "yīyuàn",
+      "significado": "hospital",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "医生",
+      "pinyin": "yīshēng",
+      "significado": "médico, doctor",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "小",
+      "pinyin": "xiǎo",
+      "significado": "pequeño",
+      "tipo": "adjetivo"
+    },
+    {
+      "caracter": "猫",
+      "pinyin": "māo",
+      "significado": "gato",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "狗",
+      "pinyin": "gǒu",
+      "significado": "perro",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "椅子",
+      "pinyin": "yǐzi",
+      "significado": "silla",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "上面",
+      "pinyin": "shàngmiàn",
+      "significado": "encima, arriba",
+      "tipo": "sustantivo de lugar",
+      "fuente": "manual"
+    },
+    {
+      "caracter": "下面",
+      "pinyin": "xiàmiàn",
+      "significado": "debajo, abajo",
+      "tipo": "sustantivo de lugar",
+      "fuente": "manual"
+    },
+    {
+      "caracter": "小学",
+      "pinyin": "xiǎoxué",
+      "significado": "escuela primaria",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "爸爸",
+      "pinyin": "bàba",
+      "significado": "papá, padre",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "弟弟",
+      "pinyin": "dìdi",
+      "significado": "hermano menor",
+      "tipo": "sustantivo"
+    },
+    {
+      "caracter": "妹妹",
+      "pinyin": "mèimei",
+      "significado": "hermana menor",
+      "tipo": "sustantivo"
+    }
+  ],
+  "frases": [
+    {
+      "zh": "这儿有很多小朋友。",
+      "origen": "ejemplo",
+      "pinyin": "Zhèr yǒu hěn duō xiǎopéngyou.",
+      "es": "Aquí hay muchos niños"
+    },
+    {
+      "zh": "这个杯子很大，那个杯子很小。",
+      "origen": "ejemplo",
+      "pinyin": "Zhège bēizi hěn dà, nàge bēizi hěn xiǎo.",
+      "es": "Este vaso es muy grande, aquel vaso es muy pequeño",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这是我的狗。",
+      "origen": "ejemplo",
+      "pinyin": "Zhè shì wǒ de gǒu.",
+      "es": "Este es mi perro",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我有一只狗。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ yǒu yì zhī gǒu.",
+      "es": "Tengo un perro",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "这是我朋友的猫。",
+      "origen": "ejemplo",
+      "pinyin": "Zhè shì wǒ péngyou de māo.",
+      "es": "Este es el gato de mi amigo",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我朋友有一只猫。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ péngyou yǒu yì zhī māo.",
+      "es": "Mi amigo tiene un gato",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你在哪儿？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ zài nǎr?",
+      "es": "¿Dónde estás?"
+    },
+    {
+      "zh": "你去哪儿？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ qù nǎr?",
+      "es": "¿Adónde vas?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去学校。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ qù xuéxiào.",
+      "es": "Voy a la escuela",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "猫在桌子上面。",
+      "origen": "ejemplo",
+      "pinyin": "Māo zài zhuōzi shàngmiàn.",
+      "es": "El gato está encima de la mesa",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "狗在桌子下面。",
+      "origen": "ejemplo",
+      "pinyin": "Gǒu zài zhuōzi xiàmiàn.",
+      "es": "El perro está debajo de la mesa"
+    },
+    {
+      "zh": "杯子在桌子上面。",
+      "origen": "ejemplo",
+      "pinyin": "Bēizi zài zhuōzi shàngmiàn.",
+      "es": "El vaso está encima de la mesa",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "那儿有一只小猫。",
+      "origen": "ejemplo",
+      "pinyin": "Nàr yǒu yì zhī xiǎo māo.",
+      "es": "Allí hay un gatito",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "那儿有一个人。",
+      "origen": "ejemplo",
+      "pinyin": "Nàr yǒu yí ge rén.",
+      "es": "Allí hay una persona",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我的杯子在哪儿？",
+      "origen": "gramatica",
+      "pinyin": "Wǒ de bēizi zài nǎr?",
+      "es": "¿Dónde está mi vaso?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你的中国朋友在哪儿？",
+      "origen": "gramatica",
+      "pinyin": "Nǐ de Zhōngguó péngyou zài nǎr?",
+      "es": "¿Dónde está tu amigo chino?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "小猫在哪儿？",
+      "origen": "gramatica",
+      "pinyin": "Xiǎo māo zài nǎr?",
+      "es": "¿Dónde está el gatito?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你在哪儿工作？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ zài nǎr gōngzuò?",
+      "es": "¿Dónde trabajas?"
+    },
+    {
+      "zh": "我在学校工作。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ zài xuéxiào gōngzuò.",
+      "es": "Trabajo en la escuela",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她在医院工作。",
+      "origen": "ejemplo",
+      "pinyin": "Tā zài yīyuàn gōngzuò.",
+      "es": "Ella trabaja en el hospital",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我爸爸在书店工作。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ bàba zài shūdiàn gōngzuò.",
+      "es": "Mi papá trabaja en la librería",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你妈妈工作吗？",
+      "origen": "ejemplo",
+      "pinyin": "Nǐ māma gōngzuò ma?",
+      "es": "¿Tu mamá trabaja?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我妈妈不工作。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ māma bù gōngzuò.",
+      "es": "Mi mamá no trabaja",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "李月的工作是老师。",
+      "origen": "ejemplo",
+      "pinyin": "Lǐ Yuè de gōngzuò shì lǎoshī.",
+      "es": "El trabajo de Li Yue es profesora",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我去医院。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ qù yīyuàn.",
+      "es": "Voy al hospital",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "李老师的儿子是医生。",
+      "origen": "ejemplo",
+      "pinyin": "Lǐ lǎoshī de érzi shì yīshēng.",
+      "es": "El hijo del profesor Li es médico",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我朋友的爸爸是医生。",
+      "origen": "ejemplo",
+      "pinyin": "Wǒ péngyou de bàba shì yīshēng.",
+      "es": "El papá de mi amigo es médico",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "小狗在哪儿？",
+      "origen": "ejercicio",
+      "pinyin": "Xiǎogǒu zài nǎr?",
+      "es": "¿Dónde está el perrito?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他在哪儿工作？",
+      "origen": "ejercicio",
+      "pinyin": "Tā zài nǎr gōngzuò?",
+      "es": "¿Dónde trabaja él?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他儿子在哪儿工作？",
+      "origen": "ejercicio",
+      "pinyin": "Tā érzi zài nǎr gōngzuò?",
+      "es": "¿Dónde trabaja su hijo?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她爸爸在家吗？",
+      "origen": "ejercicio",
+      "pinyin": "Tā bàba zài jiā ma?",
+      "es": "¿Su papá está en casa?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "她爸爸在哪儿呢？",
+      "origen": "ejercicio",
+      "pinyin": "Tā bàba zài nǎr ne?",
+      "es": "¿Dónde está su papá?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "小猫在那儿。",
+      "origen": "dialogo",
+      "pinyin": "Xiǎo māo zài nàr.",
+      "es": "El gatito está allí",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "小狗在椅子下面。",
+      "origen": "dialogo",
+      "pinyin": "Xiǎo gǒu zài yǐzi xiàmiàn.",
+      "es": "El perrito está debajo de la silla",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你儿子在哪儿工作？",
+      "origen": "dialogo",
+      "pinyin": "Nǐ érzi zài nǎr gōngzuò?",
+      "es": "¿Dónde trabaja tu hijo?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "我儿子在医院工作，他是医生。",
+      "origen": "dialogo",
+      "pinyin": "Wǒ érzi zài yīyuàn gōngzuò, tā shì yīshēng.",
+      "es": "Mi hijo trabaja en el hospital, es médico",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "你爸爸在家吗？",
+      "origen": "dialogo",
+      "pinyin": "Nǐ bàba zài jiā ma?",
+      "es": "¿Tu papá está en casa?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "不在家。",
+      "origen": "dialogo",
+      "pinyin": "Bú zài jiā.",
+      "es": "No está en casa",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他在哪儿呢？",
+      "origen": "dialogo",
+      "pinyin": "Tā zài nǎr ne?",
+      "es": "¿Dónde está él?",
+      "traduccion_generada": true
+    },
+    {
+      "zh": "他在医院。",
+      "origen": "dialogo",
+      "pinyin": "Tā zài yīyuàn.",
+      "es": "Él está en el hospital",
+      "traduccion_generada": true
+    }
+  ]
+}
